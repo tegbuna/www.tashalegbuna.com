@@ -1,0 +1,155 @@
+
+.hero {
+    /* background-color: var(--overlay); */
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    position: relative
+}
+
+.main-hero {
+    content: '';
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.mobile-hero {
+    display: none;
+}
+
+.hero .content {
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 3rem;
+}
+
+.tasha-logo{
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.76));
+}
+
+.tasha-logo-small{
+    display: none;
+}
+
+.title-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero .content .fs {
+    font-family: var(--Heading-font-family);
+    font-weight: 700;
+    font-size: 4rem;
+    padding:.5em 0;
+    text-transform: uppercase;
+    justify-content: center;
+    color: gray;
+}
+
+
+.hero .content .se {
+    display: flex;
+    font-family: 'Grey Qo', cursive;
+    font-size: 7em;
+    font-weight: lighter;
+    justify-content: flex-end;
+    color: var(--accent-color1);
+    padding-left: 5px;
+}
+
+.hero .button {
+    margin: 1 rem 0;
+    width: 300px;
+    background-color: var(--primary-dark);
+    border: 1px solid var(-primary-color);
+    color: var(--accent-color3);
+}
+
+.hero .button:hover {
+    background-color: var(--secondary-dark);
+    border: 1px solid var(--secondary-dark);
+}
+
+@media screen and (max-width: 940px) {
+    
+    .hero {
+    background-color: var(--overlay-2);
+
+    }
+
+    .tasha-logo{
+        display: none;
+    }
+
+    .tasha-logo-small {
+        display: flex;
+        justify-content: center;
+        margin-top: -50px;
+    }
+    .title-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero .content .fs {
+        font-family: var(--Heading-font-family);
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        justify-content: center;
+        padding: 16px 0;
+        color: gray;
+    }
+    
+    .hero .content .se {
+        font-size: 3.75em;
+        margin-top: -.3em;
+        justify-content: flex-end;
+        color: var(--accent-color1);
+
+    }
+
+    .main-hero {
+      display: none;
+    }
+
+    .hero .mobile-hero {
+        display: flex;
+        content: '';
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        
+    }
+
+    .hero .content {
+        display:flex;
+        flex: 1;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+

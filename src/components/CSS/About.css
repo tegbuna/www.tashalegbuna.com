@@ -1,0 +1,77 @@
+/* ----------- Main Section ---------- */
+
+.about {
+    background-color: var(--accent-beige-color);
+    margin: auto;
+    padding: 8rem 1 rem 0 1rem;
+    width: 100vw;
+    font-family: (--Main-font-family);
+}
+
+.about .container { 
+    max-width: 90vw;
+    padding: 2rem;
+    line-height: 1.5em;
+    margin: 0 3rem;
+    font-family: var(--Main-font-family);
+    text-align: justify;
+}
+
+
+.about h2 {
+    font-family: var(--Heading-font-family);
+    text-transform: uppercase;
+    font-size: 4rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    color: var(--secondary-dark);
+}
+
+.tag {
+    font-style: italic;
+}
+
+
+/* ----------- Media Queries Section ---------- */
+
+@media screen and (max-width: 667px){
+    
+    .about {
+        background-color: var(--accent-beige-color);
+        margin: auto;
+        padding: 8rem 1 rem 0 1rem;
+        width: 100vw;
+    }
+    
+    .about .container {
+        display: flex;
+        justify-content: center;
+        align-content:flex-start;
+        flex-direction: column;
+        max-width: 80vw;
+        padding-top: 5em;
+        margin: 0 2em;
+        text-align: justify;
+    }
+    
+   .about .container .about h2 {
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+
+    
+    .about .p {
+        font-size: 1rem;
+        margin:2 rem 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* color: white; */
+        color: rgb(7,7,7)
+    }
+
+}

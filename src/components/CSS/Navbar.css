@@ -1,0 +1,133 @@
+.header {
+    background-color: var(--primary-dark);
+    position: fixed;
+    height: 5rem;
+    width: 100vw;
+    top:0;
+    left:0;
+    z-index:1; 
+    transition: .3s ease-in;
+    overflow: hidden;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    margin: auto;
+    height:100%; /*must give height or flex won't display properly*/
+    padding: 0 1rem;
+}
+
+.header .nav-menu a {
+    color: white;
+    font-family: var(--Main-font-family);
+    font-weight: bolder;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.header .nav-menu {
+    display: flex;
+}
+
+.header .nav-item {
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.header .logo {
+    color: var(--accent-react-blue-color);
+    font-family: oxygen, sans-serif;
+    font-size: 20px;
+    font-weight:900;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+
+}
+
+.header .nav-item a:hover {
+    padding-bottom: .5em;
+    border-bottom: .2rem solid var(--secondary-dark);
+    
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width:940px) {
+    .header {
+        background-color: var(--primary-dark);
+        max-width: 100%;
+    }
+
+    i {
+        color: var(--accent-react-blue-color);
+        font-size: 1.5rem;
+        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+
+        
+    }
+
+    .header .logo {
+        color: var(--accent-react-blue-color);
+        font-size: 1.3rem;
+        /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); */
+    
+    }
+
+    .header .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        max-width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: .7rem;
+    }
+
+    /* dropdown menu */
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: var(--primary-dark
+        );
+        width: 100%;
+        height: 90vh;
+        z-index:999;
+        text-align: center;
+        transition: .3s;
+
+    }
+    /* this is how menu toggles */
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+    .header .nav-menu a {
+        color: white;
+        font-family: var(--Main-font-family);
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    .header .nav-item a:hover {
+        padding-bottom: .5em;
+        border-bottom: .2rem solid var(--secondary-dark);
+    }
+
+    .header .navbar .logo {
+        max-width: 350px;
+    }
+
+
+}
+
