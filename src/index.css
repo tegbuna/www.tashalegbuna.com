@@ -44,10 +44,30 @@ body {
   line-height: 1.2;
 }
 
+h2 {
+    font-family: var(--Heading-font-family);
+    text-transform: uppercase;
+    font-size: 3rem;
+    /* text-shadow: var(--text-shadow); */
+    /* padding: 2rem 0; */
+}
+
+.container {
+  max-width: 90vw;
+  padding: 2rem;
+  line-height: 1.5em;
+  margin: 0 3rem;
+  font-family: var(--Main-font-family);
+  text-align: justify;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* ---------- Global Navigation ---------- */
 
 ul {
   list-style: none;
@@ -56,6 +76,11 @@ ul {
 a {
   text-decoration: none;
 }
+
+
+
+/* ---------- Global Accents  ---------- */
+
 
 .button {
   padding: 17px 28px;
@@ -76,9 +101,16 @@ a {
 
 .line {
   display: block;
-  width: 40px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: var(--secondary-color);
+  width: 80px;
+  height: 1px;
+  margin: 2px auto;
+  background-color: white;
 }
+
+/* ---------- Global Images ---------- */
+
+
+
+
+
 

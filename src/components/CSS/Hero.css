@@ -64,19 +64,11 @@
 .hero .content .se {
     display: flex;
     font-family: 'Grey Qo', cursive;
-    font-size: 7em;
+    font-size: 7rem;
     font-weight: lighter;
     justify-content: flex-end;
     color: var(--accent-color1);
     padding-left: 5px;
-}
-
-.hero .button {
-    margin: 1 rem 0;
-    width: 300px;
-    background-color: var(--primary-dark);
-    border: 1px solid var(-primary-color);
-    color: var(--accent-color3);
 }
 
 .hero .button:hover {
