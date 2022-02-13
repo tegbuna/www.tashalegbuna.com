@@ -1,13 +1,24 @@
 .header {
-    background-color: var(--primary-dark);
+    background-color: rgba(0, 0, 0, 0.623);
     position: fixed;
-    height: 5rem;
+    height: 3rem;
     width: 100vw;
     top:0;
     left:0;
     z-index:1; 
     transition: .3s ease-in;
     overflow: hidden;
+}
+
+i {
+    color: var(--accent-react-blue-color);
+    font-size: 1rem;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.react-text {
+    color: var(--accent-react-blue-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .header .navbar {
@@ -17,15 +28,12 @@
     max-width: 100vw;
     margin: auto;
     height:100%; /*must give height or flex won't display properly*/
-    padding: 0 1rem;
+    padding: 0 2em;
 }
 
 .header .nav-menu a {
-    color: white;
-    font-family: var(--Main-font-family);
     font-weight: bolder;
     font-size: 1rem;
-    text-transform: uppercase;
 }
 
 .header .nav-menu {
@@ -33,8 +41,9 @@
 }
 
 .header .nav-item {
-    padding: 1rem;
-    font-weight: 500;
+    padding: 0 1rem .5em 1rem;
+
+
 }
 
 .header .logo {
@@ -45,48 +54,32 @@
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 
 }
-
-.header .nav-item a:hover {
-    padding-bottom: .5em;
-    border-bottom: .2rem solid var(--secondary-dark);
-    
-}
-
 .hamburger {
     display: none;
 }
 
 @media screen and (max-width:940px) {
     .header {
-        background-color: var(--primary-dark);
-        max-width: 100%;
-    }
+        background-color: rgba(0, 0, 0, 0.623);
 
-    i {
-        color: var(--accent-react-blue-color);
-        font-size: 1rem;
-        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
-
-        
-    }
-
-    .header .logo {
-        color: var(--accent-react-blue-color);
-        font-size: 1rem;
-        /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); */
-    
+        /* max-width: 100%; */
     }
 
     .header .navbar {
         display: flex;
         justify-content: space-between;
         align-content: center;
-        max-width: 100%;
+        max-width: 90vw;
     }
 
     .hamburger {
         display: block;
-        margin: 0 .7rem;
+        margin: 0.75em 1em;
+        padding-top: .5em;
+    }
+
+    ul {
+        justify-content: space-evenly;
     }
 
     /* dropdown menu */
@@ -101,7 +94,7 @@
         height: 90vh;
         z-index:999;
         text-align: center;
-        transition: .3s;
+        transition: .5s;
 
     }
     /* this is how menu toggles */
@@ -112,20 +105,9 @@
     .nav-item {
         margin: 1.5rem 0;
     }
-    .header .nav-menu a {
-        color: white;
-        font-family: var(--Main-font-family);
-        font-size: 1rem;
-        text-transform: uppercase;
-    }
 
     .header .nav-item a:hover {
         padding-bottom: .5em;
-        border-bottom: .2rem solid var(--secondary-dark);
-    }
-
-    .header .navbar .logo {
-        max-width: 350px;
     }
 
 

@@ -1,35 +1,25 @@
-/* ----------- Main Section ---------- */
-
 .about {
-    background-color: var(--accent-beige-color);
+    background-color: white;
     margin: auto;
-    padding: 8rem 1 rem 0 1rem;
-    width: 100vw;
-    font-family: (--Main-font-family);
 }
 
+.about .container .bio{
+    height: 100vh;
+}
 
 .about h2 {
-    font-family: var(--Heading-font-family);
-    text-transform: uppercase;
-    font-size: 3rem;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 2rem 0;
-    /* color: var(--secondary-dark); */
-    color: white;
 }
-
 
 .about .centered, .email{
     text-align: center;
 }
 
-.about .email {
+.about .email p {
   font-family: 'Grey Qo', cursive;
-   color: var(--primary-dark);
-   font-size: 3em;
+  text-align: center;
+  color: var(--primary-dark);
+  font-size: 3em;
  
 }
 
@@ -40,26 +30,28 @@
 @media screen and (max-width: 667px){
     
     .about {
-        background-color: var(--accent-beige-color);
         margin: auto;
+        height: 100vh;
         padding: 8rem 1 rem 0 1rem;
-        width: 100vw;
     }
     
     .about .container {
+        height: auto;
         display: flex;
         justify-content: center;
         align-content:flex-start;
         flex-direction: column;
-        max-width: 80vw;
         padding-top: 1em;
-        margin: 0 2em;
+        margin: -2em 2em;
         text-align: justify;
     }
 
+    .about h2 {
+        padding: 2rem;
+    }
+
     .about .email {
-        font-family: 'Grey Qo', cursive;
-        font-size: 2em;
+        font-size: 1rem;
       }
 
 }

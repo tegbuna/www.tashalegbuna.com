@@ -1,3 +1,12 @@
 .portfolio{
-    
+    background-color: var(--accent-soft-gray-color);
+    margin: auto;
+}
+
+.portfolio .container {
+    height: 100vh;
+}
+
+.portfolio h2 {
+    padding: 2rem 0;
 }

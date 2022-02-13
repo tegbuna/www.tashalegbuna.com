@@ -14,14 +14,14 @@ const mobileHero = new URL('./images/Swoop-In.jpg', import.meta.url)
             <img className="mobile-hero" src={mobileHero} alt="Mobile Hero" />
             
             <div className="content">
-            <a href="/" className="tasha-logo"><img src={tashalogobig} alt="logo" /></a>
-            <a href="/" className="tasha-logo-small"><img src={tashalogo} alt="logo" /></a>
+                <div className="tasha-logo"><img src={tashalogobig} alt="logo" /></div>
+                <div className="tasha-logo-small"><img src={tashalogo} alt="logo" /></div>
 
-            <div className="title-row">
-              <p className='fs'>Full Stack | </p>
-              <p className='se'>Software Engineer</p>
+                <div className="title-row">
+                  <p className='fs'>Full Stack | </p>
+                  <p className='se'>Software Engineer</p>
+                </div>
             </div>
-          </div>
     </div>
   )
 }

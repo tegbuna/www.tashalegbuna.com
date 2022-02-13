@@ -48,6 +48,7 @@
 .title-row {
     display: flex;
     flex-direction: row;
+    padding: .5rem
 }
 
 .hero .content .fs {
@@ -60,15 +61,15 @@
     color: gray;
 }
 
-
 .hero .content .se {
     display: flex;
     font-family: 'Grey Qo', cursive;
-    font-size: 7rem;
+    font-size: 8rem;
     font-weight: lighter;
     justify-content: flex-end;
     color: var(--accent-color1);
-    padding-left: 5px;
+    padding: .5em 0 0 1rem;
+
 }
 
 .hero .button:hover {
@@ -92,9 +93,14 @@
         justify-content: center;
         margin-top: -50px;
     }
+    
     .title-row {
         display: flex;
         flex-direction: column;
+    }
+
+    .hero .content {
+        padding: 2em;
     }
 
     .hero .content .fs {
@@ -137,6 +143,11 @@
         flex: 1;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .hero .content .title-row .se {
+    /* padding: 0 0 0 5em; */
+
     }
 
 }

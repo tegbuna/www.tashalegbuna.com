@@ -13,13 +13,13 @@ const handleClick = () => setClick(!click)
   <div className="header">
       <nav className="navbar">
         
-          <div className="logo">
-          <p><i class="fab fa-react"></i>  React Focused Developer </p>
+            <div className="logo">
+            <p className='react-text'><i class="fab fa-react"></i>  React Focused Developer </p>
+            </div>
 
-          </div>
-          <div className="hamburger" onClick={handleClick}>
-              {click ? (<FaTimes size={18} style={{color: "white" }} />) : (<FaBars size={30} style={{color: "white"}}/>)}
-          </div>
+            <div className="hamburger" onClick={handleClick}>
+                {click ? (<FaTimes size={18} style={{color: "white" }} />) : (<FaBars size={30} style={{color: "white"}}/>)}
+            </div>
 
             {/*replace className on ul with menu*/}
              <ul className={click ? "nav-menu active" : "nav-menu"}>
