@@ -1,6 +1,6 @@
 
 .hero {
-    /* background-color: var(--overlay); */
+    background-color: var(--overlay);
     color: white;
     height: 100vh;
     width: 100vw;
@@ -27,8 +27,8 @@
     display: flex;
     justify-content:  center;
     flex-direction: column;
-    height: 100%;
-    max-width: 1100px;
+    height: 100vh;
+    max-width: 100vw;
     margin: auto;
     padding: 3rem;
 }
@@ -37,8 +37,8 @@
     display: flex;
     justify-content: center;
     max-height: 100%;
-    max-width: 100;
-    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.76));
+    max-width: 100%;
+    /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.76)); */
 }
 
 .tasha-logo-small{
@@ -68,7 +68,7 @@
     font-weight: lighter;
     justify-content: flex-end;
     color: var(--accent-color1);
-    padding: .5em 0 0 1rem;
+    /* padding: .5em 0 0 1rem; */
 
 }
 
@@ -80,7 +80,8 @@
 @media screen and (max-width: 940px) {
     
     .hero {
-    background-color: var(--overlay-2);
+    background-color: var(--overlay);
+    /* margin: 2rem auto; */
 
     }
 
@@ -129,8 +130,8 @@
         content: '';
         background-size: cover;
         background-position: center center;
-        height: 100%;
-        width: 100%;
+        height: auto;
+        width: 100vw;
         position: absolute;
         top: 0;
         left: 0;
@@ -144,12 +145,6 @@
         justify-content: center;
         flex-direction: column;
     }
-
-    .hero .content .title-row .se {
-    /* padding: 0 0 0 5em; */
-
-    }
-
 }
 
 

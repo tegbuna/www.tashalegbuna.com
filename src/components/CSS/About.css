@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-.about .container .bio{
+.about .container {
     height: 100vh;
 }
 
@@ -23,15 +23,13 @@
  
 }
 
-
-
 /* ----------- Media Queries Section ---------- */
 
 @media screen and (max-width: 667px){
     
     .about {
         margin: auto;
-        height: 100vh;
+        height: auto;
         padding: 8rem 1 rem 0 1rem;
     }
     
