@@ -3,11 +3,10 @@ import "./CSS/Resume.css";
 const Resume = ({title}) => {
   return (
     <div className="resume">
-        <h2>{title}</h2>
         <div className="container">
-          {/* <span className="line"></span> */}
+          <h2>{title}</h2>
           <div className="content">
-            
+          <h2 className="mobile-h2">{title}</h2>
             
               <div className="category">Skills</div>
               <div className="category">Experience</div>

@@ -1,7 +1,7 @@
 .header {
     background-color: rgba(0, 0, 0, 0.623);
     position: fixed;
-    height: 4rem;
+    height: 3rem;
     width: 100vw;
     top:0;
     left:0;
@@ -32,7 +32,8 @@ i {
 }
 
 .header .nav-menu a {
-    font-weight: bolder;
+    font-family: var(--Heading-font-family);
+    /* font-weight: bolder; */
     font-size: 1rem;
 }
 
@@ -48,9 +49,12 @@ i {
 
 .header .logo {
     color: var(--accent-react-blue-color);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1rem;
-    font-weight:900;
+    font-family: var(--Heading-font-family);
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-size: 1rem; */
+    /* font-weight:900; */
+    font-size: var(--fs-500);
+    font-weight: bold;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 
 }
@@ -63,6 +67,7 @@ i {
         /* background-color: black; */
         background-color: rgba(0, 0, 0, 0.623);
         max-width: 100vw;
+        /* height: 90px; */
     }
 
     .header .navbar {
@@ -70,6 +75,7 @@ i {
         justify-content: space-between;
         align-content: center;
         max-width: 100vw;
+        height: 50px;
     }
 
     .hamburger {

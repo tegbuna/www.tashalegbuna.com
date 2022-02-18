@@ -11,8 +11,8 @@
     content: '';
     background-size: cover;
     background-position: center center;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -23,106 +23,64 @@
     display: none;
 }
 
-.hero .content {
+.hero .content { 
     display: flex;
-    justify-content:  center;
-    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     height: 100vh;
     max-width: 100vw;
     margin: auto;
-    padding: 3rem;
+    padding: 1rem;
 }
+
+
 
 .tasha-logo{
     display: flex;
-    justify-content: center;
-    max-height: 100%;
-    max-width: 100%;
-    /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.76)); */
+    align-self: center;
+    /* flex: 1 1 25vw; */
 }
 
-.tasha-logo-small{
+.content .title-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-row .fs {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--accent-react-blue-color);
+}
+
+.title-row .se {
+    font-family: 'Grey Qo', cursive;
+    font-size: 10vw;
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: white;
+}
+
+.hero .content .mobile-fs, hero .content span .mobile-se {
     display: none;
 }
 
-.title-row {
-    display: flex;
-    flex-direction: row;
-    padding: .5rem
-}
-
-.hero .content .fs {
-    font-family: var(--Heading-font-family);
-    font-weight: 700;
-    font-size: 4rem;
-    padding:.5em 0;
-    text-transform: uppercase;
-    justify-content: center;
-    color: gray;
-}
-
-.hero .content .se {
-    display: flex;
-    font-family: 'Grey Qo', cursive;
-    font-size: 8rem;
-    font-weight: lighter;
-    justify-content: flex-end;
-    color: var(--accent-color1);
-    /* padding: .5em 0 0 1rem; */
-
-}
-
-.hero .button:hover {
-    background-color: var(--secondary-dark);
-    border: 1px solid var(--secondary-dark);
+.hero .quotation {
+    font-size: var(--fs-700);
+    text-align: center;
+    letter-spacing: .3em;
+    font-size: clamp(1.5rem, 0.72rem + 1.64vw, 2.5rem);
+    margin: 2em;
+    color: rgb(198, 198, 198);
+    
 }
 
 @media screen and (max-width: 940px) {
-    
-    .hero {
-    background-color: var(--overlay);
-    /* margin: 2rem auto; */
-
-    }
-
-    .tasha-logo{
-        display: none;
-    }
-
-    .tasha-logo-small {
-        display: flex;
-        justify-content: center;
-        margin-top: -50px;
-    }
-    
-    .title-row {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hero .content {
-        padding: 2em;
-    }
-
-    .hero .content .fs {
-        font-family: var(--Heading-font-family);
-        font-size: 2.2rem;
-        text-transform: uppercase;
-        justify-content: center;
-        padding: 16px 0;
-        color: gray;
-    }
-    
-    .hero .content .se {
-        font-size: 3.75em;
-        margin-top: -.3em;
-        justify-content: flex-end;
-        color: var(--accent-color1);
-
-    }
-
     .main-hero {
-      display: none;
+        display: none;
     }
 
     .hero .mobile-hero {
@@ -130,7 +88,7 @@
         content: '';
         background-size: cover;
         background-position: center center;
-        height: auto;
+        height: 100%;
         width: 100vw;
         position: absolute;
         top: 0;
@@ -138,16 +96,4 @@
         z-index: -1;
         
     }
-
-    .hero .content {
-        display:flex;
-        flex: 1;
-        justify-content: center;
-        flex-direction: column;
-    }
 }
-
-
-
-
-

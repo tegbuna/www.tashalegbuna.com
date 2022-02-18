@@ -14,7 +14,7 @@ const handleClick = () => setClick(!click)
       <nav className="navbar">
         
             <div className="logo">
-            <p className='react-text'><i class="fab fa-react"></i>  React Focused Developer </p>
+            <p className='react-text'><i className="fab fa-react"></i>  React Focused Developer </p>
             </div>
 
             <div className="hamburger" onClick={handleClick}>

@@ -1,55 +1,99 @@
 .about {
-    background-color: white;
+    background-color: var(--accent-mygrey);
     margin: auto;
+    z-index: 0
+
 }
 
 .about .container {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
 }
 
-.about h2 {
-    padding: 2rem 0;
+.about p {
+    color: white;
 }
 
-.about .centered, .email{
+.two-columns>* {
+    display: grid
+}
+
+.two-columns {
+    display: grid;
+    max-width: 100vw;
+    margin: 2rem 4rem;
+    grid-template-columns: repeat minmax(150px, 1fr);
+    grid-gap: 10px;
+}
+
+.one, .centered {
+    grid-column: 1/-1;
+    line-height: 2.5rem;
+}
+
+.two-columns .one {
+    grid-row: 1/2;
+}
+
+.two-columns .quotation{
+    grid-column: 2/3;
     text-align: center;
+    letter-spacing: .3rem;
+    font-size: 2rem;
+    margin: 0 0 1rem 1rem;
+    text-align: justify;
+    color: rgb(198, 198, 198);
+
 }
 
-.about .email p {
+.two-columns .two, .two-columns .three {
+    grid-column: 4/-2;
+    text-align: justify;
+    line-height: 2.5rem;
+
+}
+
+.bold {
+    /* font-style:italic; */
+    font-family: var(--Heading-font-family);
+    color: white;
+}
+
+
+.about .email {
   font-family: 'Grey Qo', cursive;
   text-align: center;
-  color: var(--primary-dark);
-  font-size: 3em;
- 
+  color: var(--accent-react-blue-color);
+  letter-spacing: .2rem;
+  font-size: var(--fs-lg);
 }
 
-/* ----------- Media Queries Section ---------- */
+@media screen and (max-width: 940px) {
 
-@media screen and (max-width: 667px){
-    
-    .about {
-        margin: auto;
-        height: auto;
-        padding: 8rem 1 rem 0 1rem;
-    }
-    
-    .about .container {
-        height: auto;
+    .two-columns {
         display: flex;
+        margin: 0 auto;
         justify-content: center;
-        align-content:flex-start;
+        align-content: center;
         flex-direction: column;
-        padding-top: 1em;
-        margin: -2em 2em;
+    }
+
+    .two-columns > * {
+        display: flex;
+        flex: 1 1 90vw;
+        flex-basis: 90vw;
+        flex-direction: column;
+        flex-wrap: wrap;
         text-align: justify;
     }
 
-    .about h2 {
-        padding: 2rem;
+    .two-columns p {
+        letter-spacing: .1em;
+        line-height: 3rem;
     }
 
-    .about .email {
-        font-size: 1rem;
-      }
-
+    .two-columns .quotation {
+        text-align: center;
+    }
 }
