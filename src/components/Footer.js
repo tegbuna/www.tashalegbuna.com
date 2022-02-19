@@ -20,7 +20,14 @@ const mobileHero = new URL('./images/BlackGeo.jpg', import.meta.url)
                       <h1 className="connect">
                           Let's connect!
                       </h1>
-                      <p className="email">hey_tasha@tashalegbuna.com</p>
+                      <div className="social">
+                      <ul className="social-list">
+                        <li><a className="linkedin" href="https://www.linkedin.com/tasha-l-egbuna/" rel="noreferrer" target="_blank">LinkedIn Icon</a></li>
+                        <li><a className="github" href="https://www.github.com/tegbuna" rel="noreferrer" target="_blank">Github Icon</a></li>
+                      </ul>
+                      </div>
+
+                      <p className="email">tasha@tashalegbuna.com</p>
                 </div>
               </div>
           </div>

@@ -9,7 +9,7 @@ const mainHero = new URL("./images/Swoop-In-two.jpg", import.meta.url)
 const mobileHero = new URL('./images/Swoop-In.jpg', import.meta.url)
 
   return (
-    <div className='hero'>
+    <div className='hero' id='home'>
             <img className="main-hero" src={mainHero} alt="Hero" />
             <img className="mobile-hero" src={mobileHero} alt="Mobile Hero" />
             

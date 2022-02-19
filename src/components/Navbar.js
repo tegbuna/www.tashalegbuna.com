@@ -8,6 +8,7 @@ import { click } from "@testing-library/user-event/dist/click";
 const Navbar = () => {
 const [click, setClick] = useState(false)
 const handleClick = () => setClick(!click)
+const closeMenu = () => setClick(false)
 
   return (
   <div className="header">
@@ -24,23 +25,23 @@ const handleClick = () => setClick(!click)
             {/*replace className on ul with menu*/}
              <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li className="nav-item"><a href="/
-                " className="nav-item">Home</a>
+                " onClick={closeMenu} className="nav-item">Home</a>
                 </li>
 
-                <li className="nav-item"><a href="/
-                " className="nav-item">About</a>
+                <li className="nav-item"><a href="#about
+                " className="nav-item" onClick={closeMenu}>About</a>
                 </li>
 
-                <li className="nav-item"><a href="/
-                " className="nav-item">Resume</a>
+                <li className="nav-item"><a href="#resume
+                " className="nav-item" onClick={closeMenu}>Resume</a>
                 </li>
 
-                <li className="nav-item"><a href="/
-                " className="nav-item">Portfolio</a>
+                <li className="nav-item"><a href="#portfolio
+                " className="nav-item" onClick={closeMenu}>Portfolio</a>
                 </li>
 
-                <li className="nav-item"><a href="/
-                " className="nav-item">Contact</a>
+                <li className="nav-item"><a href="#contact
+                " className="nav-item" onClick={closeMenu}>Contact</a>
                 </li>
 
             </ul>

@@ -13,8 +13,8 @@ const Tech = () => {
                 Web Application that allows users to search for GIFs, as well as view a list of trending keywords and the most popular 10 GIFs of the moment populated utilizing the Giphy API.
             </p>
                   <ul>
-                      <li className="buton"><a href="https://tech-careers-depot.herokuapp.com" rel="noreferrer" target="_blank">Tech Career Depot </a></li>
-                       <li className="buton"><a href="https://github.com/tegbuna/tech-careers-depot" rel="noreferrer" target="_blank">Source Code</a></li>
+                      <li id="button"><a href="https://tech-careers-depot.herokuapp.com" rel="noreferrer" target="_blank">Tech Career Depot </a></li>
+                       <li id="button"><a href="https://github.com/tegbuna/tech-careers-depot" rel="noreferrer" target="_blank">Source Code</a></li>
                   </ul>
           </div>
       </div>

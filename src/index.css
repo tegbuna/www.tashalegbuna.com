@@ -64,6 +64,8 @@ h2 {
   color: var(--accent-react-blue-color);
     font-family: var(--Heading-font-family);
     font-size: var(--fs-lg);
+    /* margin-top: 1em; */
+    padding: 1em auto;
 }
 
 *p {
@@ -147,7 +149,7 @@ a {
 
 #button:hover {
   background: var(--primary-dark);
-  border: 1px solid var(--primary-dark);
+  border: 1px solid var(--accent-react-blue-color);
 }
 
 

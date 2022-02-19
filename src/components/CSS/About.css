@@ -1,14 +1,18 @@
 .about {
     background-color: var(--accent-mygrey);
     margin: auto;
+    max-width: 100vw;
     z-index: 0
 
 }
 
 .about .container {
-    height: 100%;
-    width: 100%;
+    height: auto;
     display: flex;
+}
+
+.about .container h2{
+    padding: 2em auto;
 }
 
 .about p {

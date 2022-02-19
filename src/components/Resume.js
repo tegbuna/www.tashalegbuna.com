@@ -2,7 +2,7 @@ import "./CSS/Resume.css";
 
 const Resume = ({title}) => {
   return (
-    <div className="resume">
+    <div className="resume" id='resume'>
         <div className="container">
           <h2>{title}</h2>
           <div className="content">

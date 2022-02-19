@@ -12,9 +12,9 @@ const App = () => {
 <Hero />
 <About title="About"/>
 <Resume title="Resume"/>
-{/* <Portfolio title="Portfolio"/> */}
-{/* <Footer /> */}
-{/* <FooterNav /> */}
+<Portfolio title="Portfolio"/>
+<Footer />
+<FooterNav />
 
   </div>;
 };

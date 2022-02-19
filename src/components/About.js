@@ -3,7 +3,7 @@ import "./CSS/About.css";
 
 const About = ({title}) => {
   return (
-    <div className="about">
+    <div className="about" id="about">
 
           <div className="container">
               {/* <img className="for-mobile" src={Tasha} alt="Tasha L. Egbuna" /> */}
@@ -23,7 +23,7 @@ const About = ({title}) => {
                           <div className="three"> <p> As a developer I am eager to collaborate on innovative teams solving unique programming and design challenges  where I can add value for the greater good.  In this endevor - as in all endevors, I am committed to continual learning, growth and success.</p> </div>  
                            <br />
                           <div> <p className="centered">I look forward to connecting with you.</p></div> 
-                          <div className="email">tasha.egbuna@gmail.com</div>
+                          <div className="email">tasha@tashalegbuna.com</div>
                         </div> 
                         
                     

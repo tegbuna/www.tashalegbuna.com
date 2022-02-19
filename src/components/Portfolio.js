@@ -6,7 +6,7 @@ import Tech from "../components/portfolio-components/Tech";
 
 const Portfolio = ({title}) => {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="portfolio">
         <h2>{title}</h2>
       <div className="portfolio-slides">
         <Done />

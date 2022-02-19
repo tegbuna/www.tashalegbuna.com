@@ -1,7 +1,7 @@
 .resume {
     height: 100%;
     margin: auto;
-    background-color: var(--primary-dark);
+    background-color: rgb(9, 9, 9);
     z-index: -1;
 }
 
@@ -9,6 +9,10 @@
     max-width: auto;
     height: 100%;
     align-items: center;
+}
+
+.resume .container h2{
+    /* margin-top: 1em; */
 }
 
 .resume .container .category,  .resume .container .heading{
@@ -63,7 +67,8 @@
 /* ----------- Media Queries Section ---------- */
 @media screen and (max-width: 667px){
     .resume {
-        background-color: var(--primary-dark);
+        background-color: rgb(9, 9, 9);
+        /* background-color: var(--primary-dark); */
         z-index: -1;
     }
 
