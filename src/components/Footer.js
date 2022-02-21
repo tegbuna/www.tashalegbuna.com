@@ -7,8 +7,8 @@ const mobileHero = new URL('./images/BlackGeo.jpg', import.meta.url)
   return (
     <div className='footer'>
           <div className="container">
-              <img className="main-hero" src={mainHero} alt="Hero" />
-              <img className="mobile-hero" src={mobileHero} alt="Mobile Hero" />
+              {/* <img className="main-hero" src={mainHero} alt="Hero" /> */}
+              {/* <img className="mobile-hero" src={mobileHero} alt="Mobile Hero" /> */}
 
               {/* <div className="card">
                 <p>add card</p>

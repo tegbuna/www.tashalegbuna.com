@@ -1,0 +1,74 @@
+/* ----- Portfolio-wide  ----- */
+
+.card-f {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 210px 210px 80px;
+    font-family: 'Raleway' sans-serif;
+    border-radius: 18 px;
+    background: gray;
+    box-shadow: 5px 5px 14px rgba()0,0,0,0.0);
+    text-align: center;
+ }
+ 
+ .card-b {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 210px 210px 80px;
+    font-family: 'Raleway' sans-serif;
+    border-radius: 18 px;
+    background: gray;
+    box-shadow: 5px 5px 14px rgba()0,0,0,0.0);
+    text-align: center;
+
+ }
+ 
+ 
+ /* .card-buttons {
+ 
+ } */
+ 
+ /* #button {
+ 
+ } */
+ 
+ /* .heading {
+     color: var(--secondary-dark)
+ } */
+ 
+  #button{
+     padding: 9px 12px;
+     font-size: 1.2em;
+     color:white;
+     font-weight: 600;
+     text-transform: uppercase;
+     background-color: var(--primary-dark);
+     border: 1px solid var(--secondary-dark);
+     border-radius: 4px;
+     cursor:pointer;
+     margin-left: 2em;
+   }
+ 
+   #button:hover {
+     background: var(--primary-color);
+     border: 1px solid var(--accent-react-blue-color);
+   }
+ 
+   /* .project-description {
+ 
+   } */
+ 
+   .p-title {
+       font-family: 'Raleyway', sans-serif;
+ 
+   }
+ 
+   .p-stack{
+       grid-area: text;
+ 
+   }
+ 
+   .p-details {
+       grid-area: text;
+   }
+ 

@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import {FaBars, FaTimes} from "react-icons/fa";
 import "./CSS/Navbar.css";
-import { click } from "@testing-library/user-event/dist/click";
+import { Link } from 'react-scroll';
 
 
 
@@ -24,24 +24,24 @@ const closeMenu = () => setClick(false)
 
             {/*replace className on ul with menu*/}
              <ul className={click ? "nav-menu active" : "nav-menu"}>
-                <li className="nav-item"><a href="/
-                " onClick={closeMenu} className="nav-item">Home</a>
+                <li className="nav-item"><Link to="hero
+                " spy={true} smooth={true} offset={-55} duration={500} onClick={closeMenu} className="nav-item">Home</Link>
                 </li>
 
-                <li className="nav-item"><a href="#about
-                " className="nav-item" onClick={closeMenu}>About</a>
+                <li className="nav-item"><Link to="about
+                " spy={true} smooth={true} offset={-55} duration={500} className="nav-item" onClick={closeMenu}>About</Link>
                 </li>
 
-                <li className="nav-item"><a href="#resume
-                " className="nav-item" onClick={closeMenu}>Resume</a>
+                <li className="nav-item"><Link to="resume
+                " spy={true} smooth={true} offset={-55} duration={500} className="nav-item" onClick={closeMenu}>Resume</Link>
                 </li>
 
-                <li className="nav-item"><a href="#portfolio
-                " className="nav-item" onClick={closeMenu}>Portfolio</a>
+                <li className="nav-item"><Link to="portfolio
+                " spy={true} smooth={true} offset={-55} duration={500} className="nav-item" onClick={closeMenu}>Portfolio</Link>
                 </li>
 
-                <li className="nav-item"><a href="#contact
-                " className="nav-item" onClick={closeMenu}>Contact</a>
+                <li className="nav-item"><Link to="footer
+                " spy={true} smooth={true} offset={-55} duration={500} className="nav-item" onClick={closeMenu}>Contact</Link>
                 </li>
 
             </ul>

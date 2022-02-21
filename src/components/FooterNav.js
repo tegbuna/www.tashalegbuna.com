@@ -1,6 +1,6 @@
+import { FaCopyright } from "react-icons/fa";
 import "./CSS/FooterNav.css";
 
-// const copy = [%raw {|'\u00a9'|}]
 
 const FooterNav = () => {
 
@@ -9,7 +9,7 @@ const FooterNav = () => {
       <nav className="navbar">
         <div className="nav-menu">
                 <div className="copyright">
-                  <p>Copyright  2021 | Fierce Generation, LLC - Tasha L. Egbuna | All Rights Reserved.</p>
+                  <p>Copyright {FaCopyright}  2021 | Fierce Generation, LLC - Tasha L. Egbuna | All Rights Reserved.</p>
                 </div>
         </div>
       </nav>

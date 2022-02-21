@@ -1,6 +1,6 @@
 import './CSS/Hero.css';
 import tashalogo from "./images/tashalogo.png";
-import tashalogobig from "./images/tashalogobig.png";
+// import tashalogobig from "./images/tashalogobig.png";
 
 
 
@@ -14,7 +14,7 @@ const mobileHero = new URL('./images/Swoop-In.jpg', import.meta.url)
             <img className="mobile-hero" src={mobileHero} alt="Mobile Hero" />
             
             <div className="content">
-                <div className="tasha-logo"><img src={tashalogobig} alt="logo" /></div>
+                <div className="tasha-logo"><img src={tashalogo} alt="logo" /></div>
                 
                 <div className="title-row">
                   <p className='fs'>Full Stack |</p>

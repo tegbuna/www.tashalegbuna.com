@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+const Logo = () => {
+   
+  return (
+    <div>
+        {/* <?xml version="1.0" encoding="UTF-8" standalone="no"?> */}
+{/* <!-- Created with Inkscape (http://www.inkscape.org/) --> */}
 
 <svg
    width="1920"
@@ -7,30 +12,33 @@
    viewBox="0 0 508 285.75"
    version="1.1"
    id="svg5"
-   sodipodi:docname="whitename.svg"
    inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="NAMELOGO.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview872"
+     id="namedview7"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="0.48796296"
-     inkscape:cx="915.02847"
-     inkscape:cy="527.70399"
+     inkscape:zoom="0.51461697"
+     inkscape:cx="1098.8755"
+     inkscape:cy="618.90691"
      inkscape:window-width="1312"
-     inkscape:window-height="1003"
-     inkscape:window-x="0"
-     inkscape:window-y="23"
+     inkscape:window-height="855"
+     inkscape:window-x="941"
+     inkscape:window-y="1103"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:snap-page="false"
+     inkscape:snap-to-guides="true" />
   <defs
      id="defs2">
     <rect
@@ -174,10 +182,13 @@
     <rect
        x="1237.8138"
        y="629.59448"
-       width="1186.3195"
-       height="278.57867"
+       width="942.44849"
+       height="340.05875"
        id="rect149830-0-2" />
     <filter
+       inkscape:label="Black Light"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Light areas turn to black"
        style="color-interpolation-filters:sRGB;"
        id="filter205781"
        x="0"
@@ -207,40 +218,10 @@
          in="result3"
          id="feComposite205779" />
     </filter>
-    <filter
-       style="color-interpolation-filters:sRGB"
-       id="filter1011"
-       x="-0.012414599"
-       y="-0.046158406"
-       width="1.0300019"
-       height="1.1115495">
-      <feOffset
-         dy="3"
-         dx="3"
-         id="feOffset1001" />
-      <feGaussianBlur
-         stdDeviation="3"
-         result="blur"
-         id="feGaussianBlur1003" />
-      <feFlood
-         flood-color="rgb(0,0,0)"
-         flood-opacity="1"
-         result="flood"
-         id="feFlood1005" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite"
-         id="feComposite1007" />
-      <feBlend
-         in="blur"
-         in2="composite"
-         mode="normal"
-         id="feBlend1009" />
-    </filter>
   </defs>
   <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
      id="layer1">
     <text
        xml:space="preserve"
@@ -249,7 +230,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:121.062px;line-height:1.25;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, ';white-space:pre;shape-inside:url(#rect4125);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="585.64648"
          y="395.33758"
-         id="tspan456"> </tspan></text>
+         id="tspan211800"> </tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
@@ -277,13 +258,21 @@
        style="line-height:1.25;font-family:sans-serif;font-size:120px;white-space:pre;shape-inside:url(#rect176924)" />
     <text
        xml:space="preserve"
-       transform="matrix(0.49744816,0,0,0.48213362,-556.77511,-183.83829)"
+       transform="matrix(0.26458333,0,0,0.26458333,-125.81679,-80.696605)"
        id="text149828-36-5"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:51.8652px;line-height:1.25;font-family:'Tamil MN';-inkscape-font-specification:'Tamil MN, @wght=1.30,wdth=1.13';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wdth' 1.13, 'wght' 1.3;white-space:pre;shape-inside:url(#rect149830-0-2);fill:#ffffff;fill-opacity:1;stroke-width:0.540262;filter:url(#filter1011)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120px;line-height:1.25;font-family:'Tamil MN';-inkscape-font-specification:'Tamil MN, @wght=1.30,wdth=1.13';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wdth' 1.13, 'wght' 1.3;white-space:pre;shape-inside:url(#rect149830-0-2);fill:#909090;fill-opacity:1"><tspan
          x="1237.8145"
-         y="675.22905"
-         id="tspan460"><tspan
-           style="font-family:Zapfino;-inkscape-font-specification:Zapfino"
-           id="tspan458">Tasha  L. Egbuna</tspan></tspan></text>
+         y="735.17969"
+         id="tspan211802">TASHA L.
+</tspan><tspan
+         x="1237.8145"
+         y="885.17969"
+         id="tspan211804">EGBUNA</tspan></text>
   </g>
 </svg>
+
+    </div>
+  )
+}
+
+export default Logo

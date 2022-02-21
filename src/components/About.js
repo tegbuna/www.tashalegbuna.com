@@ -4,14 +4,10 @@ import "./CSS/About.css";
 const About = ({title}) => {
   return (
     <div className="about" id="about">
-
+          <h2>{title}</h2>
           <div className="container">
-              {/* <img className="for-mobile" src={Tasha} alt="Tasha L. Egbuna" /> */}
-
+            {/* [Possible image] */}
               <div className="content">
-                <h2>{title}</h2> 
-                    {/* <img className="about-photo" src={Tasha} alt="Tasha L. Egbuna" /> */}
-                    
                     <div className="two-columns">
                       <div className="paragraphs">
                         <div className="one"> <p> I'm a full stack software engineer with a huge passion for front-end development and design.  A few years ago I became curious about coding and that eventually led me to <span className="bold">General Assembly's Software Engineering Immersive Program. </span></p></div> 
@@ -25,8 +21,6 @@ const About = ({title}) => {
                           <div> <p className="centered">I look forward to connecting with you.</p></div> 
                           <div className="email">tasha@tashalegbuna.com</div>
                         </div> 
-                        
-                    
                     </div> 
               </div>
 
