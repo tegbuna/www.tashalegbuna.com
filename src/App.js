@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Resume from "./components/Resume";
-import Portfolio from "./components/Portfolio";
+import Works from "./components/Works";
 import Footer from "./components/Footer";
 import FooterNav from "./components/FooterNav";
 
@@ -12,7 +12,7 @@ const App = () => {
 <Hero />
 <About title="About"/>
 <Resume title="Resume"/>
-<Portfolio title="Portfolio"/>
+<Works title="Works"/>
 <Footer />
 <FooterNav />
 

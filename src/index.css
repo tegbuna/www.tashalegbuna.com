@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Italiana&family=Raleway:ital,wght@0,100;0,300;1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Merriweather+Sans:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,900;1,400;1,800&family=Public+Sans:wght@100;400;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Raleway:ital,wght@0,100;0,300;1,100&family=Merriweather+Sans:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,900;1,400;1,800&family=Grey+Qo&family=Italiana&display=swap');
 
 :root {
+
+  /* --------------
+  My Variables 
+  -------------- */
+
+  /* ----- Colors ----- */
   --primary-color: rgba(0, 0, 0, 0.541);
   --primary-dark: rgb(9, 9, 9);
   --secondary-color:  rgb(144,144,144);
@@ -11,17 +15,27 @@
   --accent-react-blue-color: rgb(40,221,254);
   --accent-mygrey: rgb(21,21,21);
   --accent-soft-gray-color: rgb(210,210,210);
-  --accent-beige-color: rgb(225,222,219);
-  --accent-cream-color: rgb(250,249,244);
+
+  /* ----- Shadows ----- */
 
   --filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
   
   --overlay: rgba(0, 0, 0, 0.141);
   --overlay-light: rgba(0, 0, 0, 0.141); 
+ 
+  /* ----- Main Fonts - Global ----- */
 
-  --Heading-font-family:'Merriweather Sans', serif;;
+  --Heading-font-family:'Merriweather Sans', serif;
+  /* ----Weights: 300, 400, 600, 800 & Italics: 100 */
+
   --Main-font-family:'raleway', sans-serif;
+  /* ----Weights: 100, 300*/
+
   --Quote-font-family: 'Playfair Display', serif;
+  /* ----Weights: 400, 500, 600, 900 & Italics: 400, 800*/
+
+ 
+  /* ----- Fonts - Responsive Sizing ----- */
   
   --fs-xl: 5rem;
   --fs-lg: 3rem;
@@ -45,12 +59,15 @@
   }
 }
 
+  /* ---------- 
+  Global Layout 
+  ---------- */
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 
 
 body {
@@ -61,15 +78,22 @@ body {
   letter-spacing: .1em;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  height: auto;
+  place-items: center;
+  padding-bottom: 2rem;
+}
+
 h2 {
     color: var(--accent-react-blue-color);
     font-family: var(--Heading-font-family);
-    font-size: var(--fs-lg);
-    padding: 0 .5em;
-}
-
-*p {
-  color: white;
+    text-transform: uppercase;
+    font-size: var(--fs-800);
+    font-weight: 600;
 }
 
 .heading {
@@ -79,17 +103,9 @@ h2 {
   text-align: center;
 }
 
-* .container {
+* .container,  {
   place-items: center;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  height: auto;
-  place-items: center;
+  font-weight: 200;
 }
 
 .nav-item {
@@ -97,6 +113,7 @@ h2 {
   font-family: var(--Main-font-family);
   font-size: 1rem;
   text-transform: uppercase;
+  font-weight: 300;
 } 
 
 .nav-item .active {
@@ -109,17 +126,10 @@ h2 {
   border-bottom: 3px solid var(--accent-react-blue-color);
 }
 
-.project-description {
-  background-color: black;
-  color: white;
-  
-}
-
-.quotation {
+* .quotation {
   font-family: var(--Quote-font-family);
   font-style: italic;
   font-size: var(--fs-800);
-  color: rgb(198, 198, 198);
 }
 
 
@@ -131,23 +141,24 @@ code {
 
 /* ---------- Global Navigation ---------- */
 
-ul {
+* ul {
   list-style: none;
 }
 
-a {
+* a {
   text-decoration: none;
 }
 
-.button{
+* .button{
   padding: 1rem 1rem;
-  font-size: 1.2 rem;
+  font-family: var(--Heading-font-family);
+  font-size: .5em;
   color: white;
-  font-weight: 600;
+  font-weight:400;
   text-transform: uppercase;
-  background-color: var(--secondary-color);
+  background-color: rgba(37, 43, 44, 0.897);
   border: 1px solid var(--secondary-dark);
-  border-radius: 4px;
+  border-radius: 8px;
   cursor:pointer;
 }
 
@@ -174,8 +185,8 @@ img {
   background-color: var(--accent-cream-color);
 }
 
-/* ---------- Portfolio Slides ---------- */
-@media screen and (max-width: 940px) {
+/* ---------- Global Media Queries ---------- */
+@media screen  {
   * {
     place-items: center;
 

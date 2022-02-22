@@ -8,7 +8,6 @@ import Readit from "../components/portfolio-components/Readit.js";
 import ReaditInfo from "./portfolio-components/ReaditInfo.js";
 import Tech from "../components/portfolio-components/Tech.js";
 import TechInfo from "./portfolio-components/TechInfo.js";
-
 import "./CSS/Cardflip.css";
 
 const Cardflip = () => {
@@ -17,6 +16,9 @@ const Cardflip = () => {
   
   return (
   <div className="card-grid">
+    <h2>Here I am!</h2>
+    <Done/>
+    <DoneInfo/>
       {/* <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
     <div> 
       <div>
