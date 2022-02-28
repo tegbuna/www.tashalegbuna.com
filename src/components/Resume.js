@@ -12,8 +12,9 @@ const Resume = ({title}) => {
             <div className="category">Experience</div>
             <div className="category">Education</div>
               
-            <div className="heading">Skills</div>
+            
               <div className="card">
+                <div className="heading">Skills</div>
                 {/* <img src="/" alt="Skills" /> */}
                 <p className="skills">JavaScript (ES6) -|-  HTML5 -|- CSS -|- Flex Box -|-   MongoDB -|- Mongoose-|- Express -|- React JS-|- Node JS </p>
                 <p><span className="line"></span></p>
@@ -22,8 +23,9 @@ const Resume = ({title}) => {
 
               
 
-             <div className="heading">Experience</div>
+             
               <div className="card">
+                <div className="heading">Experience</div>
                 {/* <img src="/" alt="Experience" /> */}
                 <p className="exp"> Mobile First (Freelance) Web Development & Graphic Desighn | Fierce Generation, LLC 2021</p>
                 <div><span className="line"></span></div>
@@ -32,8 +34,9 @@ const Resume = ({title}) => {
                 <p className="edu">Freelance Tutoring - Python December 2019</p>
             </div>
 
-            <div className="heading">Education</div>
+            
               <div className="card">
+                <div className="heading">Education</div>
                 {/* <img src="/" alt="Education" /> */}
                 <p className="edu">General Assembly | Software Engineering Immersive </p>
                 <p><span className="line"></span></p>

@@ -1,7 +1,6 @@
 .works {
     height: 100%;
     margin: auto;
-    background-color: rgb(9, 9, 9);
     z-index: -1;
 }
 
@@ -12,12 +11,6 @@
     /* padding-bottom: 2em; */
 }
 
-.works .container .category,  .resume .container .heading{
-    font-family: 'Grey Qo', cursive;
-    color: var(--accent-cream-color);
-    font-size: 4rem;
-    text-align: center;
-}
 .works .container .mobile-h2 {
     display: none;
 }
@@ -30,26 +23,25 @@
 
 }
 
-.works .container .card {
+/* .works .container .card {
     display: flex;
     flex-direction: column;
     background-color: white;
-    /* background-color: rgba(94, 94, 94, 0.63); */
-    border: 1px double var(--accent-react-blue-color);
+    -background-color: rgba(94, 94, 94, 0.63);
+    - border: 1px double var(--accent-react-blue-color);
     border-radius: 8px;
-    /* box-shadow: 0 3px 10px rgba(0, 0, 0, .2); */
+    box-shadow: 0 3px 15px rgba(255, 255, 255, .2);
     text-align: center;
-    /* flex: 1 1 100px; */
+    -flex: 1 1 100px;
     position: relative;
-}
+} */
 
-.works .card p, ul, a {
-    color: var(--accent-mygrey);
+/* .works .card p, ul, a {
+    color: var(--accent-color-2);
     font-size: 1em;
     line-height: 1.5rem;
-    font-weight: bold;
     text-decoration: none;
-}
+} */
 
 .works .card .button, ul {
     display: flex;
@@ -64,9 +56,7 @@
 /* ----------- Media Queries Section ---------- */
 @media screen and (max-width: 940px){
     .works {
-        background-color: rgb(9, 9, 9);
-        background-color: var(--primary-dark);
-        z-index: -1;
+       z-index: -1;
     }
 
     .works .container {

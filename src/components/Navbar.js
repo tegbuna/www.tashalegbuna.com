@@ -24,7 +24,7 @@ const Navbar = () => {
             {/*replace className of ul on menu for click event*/}
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li className="nav-item"><Link to="hero
-                " spy={true} smooth={true} offset={-55} duration={500} onClick={closeMenu} className="nav-item">Home</Link>
+                " spy={true} smooth={true} offset={-55} duration={500} onClick={closeMenu} className="nav-item" >Home</Link>
                 </li>
 
                 <li className="nav-item"><Link to="about

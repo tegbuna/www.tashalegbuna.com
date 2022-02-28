@@ -10,11 +10,14 @@
   --primary-color: rgba(0, 0, 0, 0.541);
   --primary-dark: rgb(9, 9, 9);
   --secondary-color:  rgb(144,144,144);
-  --secondary-dark: rgb(94,94,94);
+  --secondary-dark: rgb(21,21,21);
+  --my-grey: rgb(94,94,94);
   
   --accent-react-blue-color: rgb(40,221,254);
-  --accent-mygrey: rgb(21,21,21);
-  --accent-soft-gray-color: rgb(210,210,210);
+  --accent-color-2: rgb(201, 200, 200);
+  --accent-color-3: rgb(255,38,71);
+  --accent-color-4: rgb(254,40,217);
+  --accent-color-5: rgb(104,39,255);
 
   /* ----- Shadows ----- */
 
@@ -67,8 +70,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow:visible;
 }
 
+html {
+  background-color: var(--primary-dark);
+}
 
 body {
   place-items: center;
@@ -76,6 +83,24 @@ body {
   font-size: var(--fs-500);
   line-height: 1.6;
   letter-spacing: .1em;
+}
+
+
+
+body:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  background: var(--overlay);
+}
+
+.bodybg {
+  z-index: -1;
+  display: block;
 }
 
 .content {
@@ -87,23 +112,33 @@ body {
   place-items: center;
   padding-bottom: 2rem;
 }
+h1, h2, h3 {
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
 
 h2 {
-    color: var(--accent-react-blue-color);
-    font-family: var(--Heading-font-family);
-    text-transform: uppercase;
-    font-size: var(--fs-800);
-    font-weight: 600;
+    color: white;
+    font-family: var(--Main-font-family);
+    /* text-transform: uppercase; */
+    font-size: var(--fs-lg);
+    font-weight: 100;
+}
+
+p {
+  margin-bottom: .75em;
+  color: white;
 }
 
 .heading {
   font-family: var(--Heading-font-family);
-  color: rgba(128, 128, 128, 0.63);
-  font-size: 4rem;
+  color: white;
+  font-size: var(--fs-700);
   text-align: center;
+  text-transform: uppercase;
 }
 
-* .container,  {
+* .container {
   place-items: center;
   font-weight: 200;
 }
@@ -149,22 +184,31 @@ code {
   text-decoration: none;
 }
 
-* .button{
-  padding: 1rem 1rem;
+* .button {
+  padding: .5rem 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
   font-family: var(--Heading-font-family);
   font-size: .5em;
-  color: white;
-  font-weight:400;
   text-transform: uppercase;
-  background-color: rgba(37, 43, 44, 0.897);
-  border: 1px solid var(--secondary-dark);
+  background-color: var(--accent-color-3);
+  border: 1px solid var(--accent-color-4);
   border-radius: 8px;
   cursor:pointer;
 }
 
 .button:hover {
-  background: var(--primary-dark);
-  border: 1px solid var(--accent-react-blue-color);
+  background: var(--primary-color);
+  border: 1px solid var(--accent-color-2);
+
+}
+
+.card {
+  box-shadow: 5px 2px 5px var(--accent-react-blue-color);
+}
+
+.card>* {
+
 }
 
 
@@ -189,7 +233,6 @@ img {
 @media screen  {
   * {
     place-items: center;
-
   }
 }
 

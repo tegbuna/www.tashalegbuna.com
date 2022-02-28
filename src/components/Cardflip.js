@@ -17,8 +17,8 @@ const Cardflip = () => {
   return (
   <div className="card-grid">
     <h2>Here I am!</h2>
-    <Done/>
-    <DoneInfo/>
+    {/* <Done/>
+    <DoneInfo/> */}
       {/* <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
     <div> 
       <div>
