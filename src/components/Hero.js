@@ -3,15 +3,15 @@ import tashalogo from "./images/tashalogo.png";
 
 
 
-
 const hero = () => {
-  const mainHero = new URL("./images/Swoop-Out-Down.jpg", import.meta.url)
-  const mobileHero = new URL('./images/Swoop-Out-Down.jpg', import.meta.url)
+  // const mainHero = new URL("./images/macverydark.jpg", import.meta.url)
+  // const mobileHero = new URL('./images/macverydark.jpg', import.meta.url)
   return (
     <div className='hero' id='home'>
-      <img className="main-hero" src={mainHero} alt="Hero" />
+      <div className="main-hero">
+      {/* <img className="main-hero" src={mainHero} alt="Hero" />
       <img className="mobile-hero" src={mobileHero} alt="Mobile Hero" />
-            
+             */}
       <div className="content">
         <div className="tasha-logo">
           <img src={tashalogo} alt="logo" />
@@ -27,6 +27,7 @@ const hero = () => {
         <div className="quotation">
             <p>I design and develop experiences that make people's lives <span className='bolden'>simple.</span></p> 
         </div>
+      </div>
       </div>
 
     </div>

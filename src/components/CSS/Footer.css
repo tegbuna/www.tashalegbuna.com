@@ -6,7 +6,6 @@
     height: 100%;
     width: 100%;
     position: relative;
-    z-index: -2;
 }
 
 .footer .container {
@@ -39,6 +38,12 @@
     padding: 3rem;
 }
 
+.connect{
+    font-family: var(--Main-font-family);
+    color: var(--accent-react-blue-color)
+
+}
+
 .footer .connect, .footer, .email {
     text-align: right;
     padding-bottom: 2em;
@@ -56,16 +61,14 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    /* list-style: none; */
 }
 
 
-.footer .social ul a {
+.footer .social a {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     font-family: var(--Header-font-family);
     font-weight: bold;
-    color: var(--accent-react-blue-color );
     margin-left: 1em;
     list-style: none;
 }
@@ -80,11 +83,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        z-index: 1;
     }
 
-    .footer .main-hero {
-        display: none;
-    }
     
 }

@@ -1,22 +1,26 @@
 
 .hero {
-    color: white;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     position: relative;
     display: flex;
-    padding: 0 0 20rem 0;
-    
 }
 
 .main-hero {
     display: block;
     content: '';
-    background-color: var(--overlay-light);
+    background-color: rgb(15,16,14);
+    background-attachment: fixed;
+    background: linear-gradient(
+        hsl(0 0% 0% / 1),
+        rgba(75, 74, 74, 0.5) 20%,
+        hsl(0 0% 0% / 0))
+        , url("../images/bwdark.jpg");
     background-size: cover;
-    background-position: center center;
-    height: auto;
-    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
     position: absolute;
     top: 0;
     left: 0;
@@ -43,9 +47,8 @@
     align-self: center;
     height: auto;
     max-width: 25vw;
-    margin-top: 5em;
-    margin-bottom: -3em;
 }
+
 .tasha-mobile-logo{
     display: none;
 }
@@ -54,25 +57,24 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 2rem;
 }
 
 .title-row .fs {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 700;
-    font-size: var(--fs-700);
+    font-size: clamp(1.5rem, 0.72rem + 1.64vw, 2.5rem);;
     text-transform: uppercase;
     text-align: center;
-    color: var(--accent-color-2);
+    color: rgb(125,128,133);
 }
 
 .title-row .se {
     font-family: 'Grey Qo', cursive;
-    font-size: var(--fs-xl);
+    font-size: clamp(4.5rem, 3.72rem + 3.96vw, 5.5rem);;
     font-weight: lighter;
     text-transform: capitalize;
-    /* color: white; */
     color: var(--accent-react-blue-color);
-    margin-top: .5em;
 
 }
 
@@ -85,7 +87,7 @@
     letter-spacing: .4em;
     font-family: Raleway;
     font-size: clamp(1.5rem, 0.72rem + 1.64vw, 2.5rem);
-    padding: 0 12vw;
+    padding: 0 18vw;
 }
 
 .bolden {
@@ -95,18 +97,12 @@
 
 @media screen and (max-width: 940px) {
 
-    
-
-    .main-hero {
-        display: none;
-    }
-
     .tasha-mobile-logo{
         display: flex;
         align-self: center;
         height: auto;
         max-width: 50vw;
-        margin-top: 8em;
+        margin-top: -5em;
     }
 
     .tasha-logo{
@@ -115,13 +111,13 @@
 
 
     .title-row .fs {
-        font-size: var(--fs-800);
+        font-size: clamp(1.5rem, 0.72rem + 1.64vw, 2.5rem);;
         padding-top: .5em;
         padding: bottom
     }
     
     .title-row .se {
-        font-size: var(--fs-800);
+        font-size: clamp(2.5rem, 0.72rem + 1.64vw, 3.5rem);;
     }
 
 

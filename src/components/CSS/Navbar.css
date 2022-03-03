@@ -14,7 +14,7 @@ display: none;
     overflow: hidden;
 }
 
-i {
+.header i {
     color: var(--accent-react-blue-color);
     font-size: 1rem;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
@@ -23,7 +23,7 @@ i {
 .react-text {
     color: var(--accent-react-blue-color);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1rem;
+    font-size: .75rem;
 }
 
 .header .navbar {
@@ -33,12 +33,12 @@ i {
     max-width: 100%;
     margin: auto;
     height:100%; /*must give height or flex won't display properly*/
-    padding: 0 2em;
+    padding: 0 1em;
 }
 
 .header .nav-menu a {
     font-family: var(--Heading-font-family);
-    font-size: .75rem;
+    font-size: .65rem;
 }
 
 .header .nav-menu {
@@ -115,6 +115,7 @@ i {
 
     .header .nav-item a:hover {
         padding-bottom: .5em;
+        
     }
 
 

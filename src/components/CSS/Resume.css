@@ -1,67 +1,87 @@
 .resume {
     height: 100%;
-    margin: auto;
-    z-index: -1;
+    width: 100%;
+    padding: 0 14rem;
 }
 
 .resume .container {
-    max-width: 100vw;
-    height: 100vh;
+    max-width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+
+.resume .content {
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    flex: 1 1 300px;
+}
+
+
+.resume .card {   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
     align-items: center;
-}
+    width: 400px;
+    height: 600px;
+    justify-content: space-around;
+    margin: 20px;
+    border-radius: 14px;
+    padding: 2 rem;
+    box-shadow: 5px 2px 5px var(--accent-color-2);
 
-.resume .container .mobile-h2 {
-    display: none;
-
-}
-
-.resume .container .content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
 
 }
 
-.resume .card p {
-    color: white;
-    font-size: 1em;
-    line-height: 1.5rem;
-    font-weight: bold;
+.resume .card-content p {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: .5rem;
 }
+
+.resume h2 {
+    padding: 2em;
+}
+
 
 .resume .line {
-    background-color: rgba(219, 218, 218, 0.26);
+    padding: -4rem;
+    background-color: rgba(218, 218, 218, .8);
 }
 
+
 .resume p {
-    padding: 1em;
-    font-weight:500;
+    padding: 0 1em;
+    line-height: 1.75rem;  
+    text-align: center;  
 }
 
 /* ----------- Media Queries Section ---------- */
 @media screen and (max-width: 940px){
-    .resume {
-        z-index: -1;
-    }
 
-    .resume .container {
-        /* padding: 2em 0 1em 0; */
-        font-size: 1.1em;
+    .resume{
+        padding: 0;
+        width: 100vw;
         height: auto;
-        width: 100%;
-        line-height: 1em;
     }
 
-    .resume .container .card {
-        margin: 2em;
-    }
+    /* .resume .content {
+        display: flex;
+        max-width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
     
-    .resume .container .content {
-        grid-template-columns: 1fr;
-    }
-
-    .resume .card p {
-        line-height: 2rem;
-    }
 
 }
