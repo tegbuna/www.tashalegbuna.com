@@ -7,19 +7,20 @@ import tech from "../components/images/Portfolio/tcd.png";
 import fierce from "../components/images/Portfolio/fgllc.png";
 import sanna from "../components/images/Portfolio/sanna.png"
 
-const Cards = ({title}) => {
+const Works = ({title}) => {
   return (
-    <div className="cards">
-        <div className=".container">
-            <h2>{title}</h2>
+    <div className="works">
+        <div className="container">
+            <h2 className="title" >{title}</h2>
            <div className="card-page-body">
                 <div className="done-app">
                         <div className="my-card">
                             <div className="card-content">
                                 <h3 className="card-title">Done!</h3>
                                 <div className="card-body">
-                                    <p >Full Stack Web Application that allows users to login to their google account using Firebase authentication and create lists of chores they need completed.</p> 
-                                    <p >ReactJS -|- MongoDB -|- Firebase Authentication</p>
+                                    <p >Login  using Firebase authentication and perform CRUD operations.</p> 
+                                    <br />
+                                    <p >ReactJS  -  MongoDB  -  Firebase </p>
                                 </div>
                                 <div className="button-div">
                                     <a href="https://the-done-app.netlify.app" rel="noreferrer" target="_blank" className="card-button">Visit</a>
@@ -35,8 +36,9 @@ const Cards = ({title}) => {
                             <div className="card-content">
                                 <h3 className="card-title">Gifs|4|Today</h3>
                                 <div className="card-body">
-                                    <p >Web Application that allows users to search for GIFs, as well as view a list of trending keywords and the most popular 10 GIFs of the moment populated utilizing the Giphy API.</p> 
-                                    <p >MongoDB -|- Express -|- Node -|- Giphy API</p>
+                                    <p >Full Stack -  utilize Giphy API to  search  GIFs, view list of top 25 trending and view top 10 in real-time.</p> 
+                                    <br />
+                                    <p >MongoDB  -  Express  -  Node  -  Giphy API</p>
                                 </div>
                                 <div className="button-div">
                                     <a href="https://gifs4today.vercel.app/" rel="noreferrer" target="_blank" className="card-button">Visit</a>
@@ -50,10 +52,11 @@ const Cards = ({title}) => {
                     <div className="tech-app">
                         <div className="my-card">
                             <div className="card-content">
-                                <h3 className="card-title">Tech Career Depot</h3>
+                                <h3 className="card-title" id="tech-career">TCD</h3>
                                 <div className="card-body">
-                                    <p > Full Stack Application that allows users to learn about different types of career paths that can be followed in the Information Technology field.</p> 
-                                    <p >MongoDB -|- Express -|- Node </p>
+                                    <p > Full Stack - learn about tech career paths (MongoDB database).</p> 
+                                    <br />
+                                    <p >MongoDB  -  Express  -  Node </p>
                                 </div>
                                 <div className="button-div">
                                     <a href="https://tech-careers-depot.herokuapp.com" rel="noreferrer" target="_blank"className="card-button">Visit</a>
@@ -68,8 +71,9 @@ const Cards = ({title}) => {
                             <div className="card-content">
                                 <h3 className="card-title">Read It</h3>
                                 <div className="card-body">
-                                    <p >Web Application that allows users to search for GIFs, as well as view a list of trending keywords and the most popular 10 GIFs of the moment populated utilizing the Giphy API.</p> 
-                                    <p >MongoDB -|-Express -|- Node</p>
+                                    <p >Search for books and perform  CRUD operations in two seperate lists .</p> 
+                                    <br />
+                                    <p >MongoDB - Express - Node - Google Books API</p>
                                 </div>
                                 <div className="button-div">
                                     <a href="https://we-read-it.herokuapp.com/" rel="noreferrer" target="_blank"className="card-button">Visit</a>
@@ -82,11 +86,12 @@ const Cards = ({title}) => {
 
                     <div className="sanna">
                         <div className="my-card">
-                            <div className="card-content">
+                            <div className="card-content" id="sanna">
                                 <h3 className="card-title">SANNA</h3>
                                 <div className="card-body">
-                                    <p >Landing site for San Antonio Nigerian Nurses Association (SANNA).  This page will allow SANNA to set themselves apart from the National Nurses Association main site with a  modern and attractive initial UI for potential members to engage with."</p> 
-                                    <p >ReactJS -|- Firebase Authentication</p>
+                                    <p >(COMING SOON...) Front-end UI portal for San Antonio Nigerian Nurses Association.</p> 
+                                    <br />
+                                    <p >ReactJS  -  Firebase Authentication</p>
                                 </div>
                                 <div className="button-div">
                                     <a href="/" rel="noreferrer" target="_blank" className="card-button">Visit</a>
@@ -100,9 +105,10 @@ const Cards = ({title}) => {
                     <div className="fgllc">
                         <div className="my-card">
                             <div className="card-content">
-                                <h3 className="card-title">Fierce Generation, LLC</h3>
+                                <h3 className="card-title" id="fgllc">F-G, LLC</h3>
                                 <div className="card-body">
-                                    <p >Check out my freelancing website.</p> 
+                                    <p >(COMING SOON...) www.fierce-generation.com.  This is my freelancing website.</p> 
+                                    <br />
                                     <p >ReactJS</p>
                                 </div>
                                 <div className="button-div">
@@ -122,4 +128,4 @@ const Cards = ({title}) => {
   )
 }
 
-export default Cards
+export default Works

@@ -3,7 +3,7 @@ import "./CSS/Resume.css";
 const Resume = ({title}) => {
   return (
     <div className="resume" id='resume'>
-       <h2>{title}</h2> 
+       <h2 className="title">{title}</h2> 
        <div className="container">
           <div className="content">
               <div className="card">

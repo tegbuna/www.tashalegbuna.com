@@ -1,80 +1,134 @@
 .works {
-    /* background-color: var(--primary-dark); */
+    background: rgba(255, 255, 255, 0.034);
     width: 100%;
     height: 100%;
-    z-index: 0;
     padding: 0 14rem;
 }
-
-.works h2 {
-    padding: 2em;
+.works .container {
+    max-width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
 }
-.card-page-body {
-    /* height: 100%; */
-    width: 100vw;
+
+
+.works .card-page-body {
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+    width: 100%;
     min-height: 100vh;
-    place-items:center;
     line-height: 1.6;
-    /* background: white; */
 }
 
 .done-app {
+    background: linear-gradient(
+        rgba(0, 0, 0, .3),
+        rgba(0, 0, 0, 0) 30%,
+        hsl(0 0% 0% / 0.3))
+        , url("../images/Portfolio/done.png");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/Portfolio/done.png");
+    width: 300px;
+    height: 400px;
     padding: rem 0 0;
     max-width: 40ch;
+    box-shadow: 2px 1px 5px var(--primary-color);
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
+
 }
 
 .gifs-app {
+    background: linear-gradient(
+        rgba(0, 0, 0, .3),
+        rgba(0, 0, 0, 0) 30%,
+        hsl(0 0% 0% / 0.3))
+        , url("../images/Portfolio/gifsfortoday.png");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/Portfolio/gifsfortoday.png");
+    width: 300px;
+    height: 400px;
     padding: rem 0 0;
     max-width: 40ch;
+    box-shadow: 2px 1px 5px var(--primary-color);
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
 }
 .tech-app {
+    background: linear-gradient(
+        rgba(0, 0, 0, .3),
+        rgba(0, 0, 0, 0) 30%,
+        hsl(0 0% 0% / 0.3))
+        , url("../images/Portfolio/tcd.png");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/Portfolio/tcd.png");
+    background-position: left;
+    width: 300px;
+    height: 400px;
     padding: rem 0 0;
     max-width: 40ch;
+    box-shadow: 2px 1px 5px var(--primary-color);
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
 }
 .read-it {
+    background: url("../images/Portfolio/readit.png");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/Portfolio/readit.png");
+    width: 300px;
+    height: 400px;
     padding: rem 0 0;
     max-width: 40ch;
+    box-shadow: 2px 1px 5px var(--primary-color);
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
 }
 .sanna {
+    background: url("../images/Portfolio/sanna.png");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/Portfolio/sanna.png");
+    background-position: center;
+    width: 300px;
+    height: 400px;
     padding: rem 0 0;
     max-width: 40ch;
+    box-shadow: 2px 1px 5px var(--primary-color);
+
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
 }
 .fgllc {
+    background: url("../images/Portfolio/gifsfortoday.png");
+    background-repeat: no-repeat;
     background-size: cover;
+    width: 300px;
+    height: 400px;
     background-image: url("../images/Portfolio/fgllc.png");
     padding: rem 0 0;
     max-width: 40ch;
+    box-shadow: 2px 1px 5px var(--primary-color);
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
 }
 
 .my-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: space-around;
+    justify-content: space-between;
+    align-items: center;
     /* animation*/
     transition: transform 500ms ease;
 }
@@ -84,19 +138,34 @@
 }
 
 .card-content {
-    --padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    font-size: .5rem;
+    font-weight: bold;
+    --padding: 1.5rem;
     padding: var(--padding);
     background: linear-gradient(
-        hsl(0 0% 0% / 0),
-        hsl(20 0% 0% / 0.3) 20%,
+        rgba(0, 0, 0, 1),
+        hsl(20 0% 0% / 1) 10%,
         hsl(0 0% 0% / 1)
     );
+    background-size: cover;
+    border-radius: 14px;
+    box-shadow: 5px 1px 5px var(--primary-color);
+    width: 300px;
+    height: 400px;
+    font-size: 1rem;
 }
+
 
 .card-title {
     position: relative;
     width: max-content; /* use this only if it's one line otherwise this will break */
     color: var(--accent-react-blue-color);
+    font-size: 2em;
     font-weight: 300;
     text-transform: uppercase;
     text-decoration: solid;
@@ -122,29 +191,41 @@
 
 .card-body {
     color: rgb(255, 255, 255, .8);
+    font-size: .75rem;
+    justify-self:flex-end;
+    text-align: center;
+    margin-top: 2.5em;
+    padding-right: 3.5em;
+    width: 300px;
+    height: 400px;
 }
 
 .button-div {
     display: flex;
-
+    place-content: center;
+    flex-direction: column;
 }
 
 .card-button {
+    display: flex;
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
     text-align: center;
     font-size: .75em;
-    color: white;
-    background-color: var(--accent-react-blue-color);
+    font-family: var(--Heading-font-family);
+    color:white;
+    background-color: var(--primary-color);
     padding: 0.5em 1.25em;
-    border-radius: 8px;
-    margin-left: 10px;
-    flex:1 1 300px;
+    border-radius: 14px;
+    border: 2px solid var(--accent-react-blue-color);
+    margin-top: 10px;
+    flex:1 1 15px;
 }
 
 .card-button:hover, .card-button:focus {
-    background-color: var(--my-grey);
+    background-color: rgb(218,218,218);
+    color: var(--primary-color)
 }
 
 i {
@@ -153,19 +234,28 @@ i {
         filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
+/* ---------- Media Queries ---------- */
+
+@media screen and (max-width: 940px) {
+    .works {
+        padding: 0;
+        display: flex;
+  
+    }
+
+    .title {
+        text-align: center;
+    }
+    
+}
+
 @media (hover) {
-    .works{
-        height: auto;
-        width: 100vw;
+   .card-page-body {
         display: flex;
         flex-direction: column;
     }
 
-   .card-page-body {
-    }
-
     .card-content{
-
     transform: translateY(65%);
     transition: transform 500ms ease;
     }

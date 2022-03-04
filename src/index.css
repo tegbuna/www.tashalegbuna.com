@@ -8,16 +8,17 @@
 
   /* ----- Colors ----- */
   --primary-color: rgba(0, 0, 0, 0.541);
-  --primary-dark: rgb(9, 9, 9);
-  --secondary-color:  rgb(144,144,144);
+  --primary-dark: rgb(20, 20, 20);
+  --secondary-color:  rgb(189,189,189);
   --secondary-dark: rgb(21,21,21);
   --my-grey: rgb(94,94,94);
   
   --accent-react-blue-color: rgb(40,221,254);
+  --accent-color-1: rgba(255, 255, 255, 0.034);
   --accent-color-2: rgb(218, 218, 218);
-  --accent-color-3: rgb(255,38,71);
-  --accent-color-4: rgb(254,40,217);
-  --accent-color-5: rgb(104,39,255);
+  --accent-color-3: rgb(189,189,189);
+  --accent-color-4: rgb(54,70,73);
+  --accent-color-5:  rgba(40, 222, 254, 0.799);
 
   /* ----- Shadows ----- */
 
@@ -79,7 +80,7 @@
 }
 
 html {
-  height: 100%;
+  /* height: 100%; */
   background-color: rgb(15,16,14);
 }
 
@@ -128,17 +129,7 @@ h2 {
 } 
 
 p {
-  font-size: var(--bs-1);
-  /* margin-bottom: .75em; */
   color: white;
-}
-
-.heading {
-  font-family: var(--Heading-font-family);
-  color: white;
-  font-size: var(--fs-500);
-  text-align: center;
-  text-transform: uppercase;
 }
 
 * .container {
@@ -156,13 +147,12 @@ p {
 
 .nav-item .active {
   padding-bottom: .5em;
-  border-bottom: 3px solid var(--accent-react-blue-color);
+  color: var(--accent-react-blue-color);
 }
 
 .nav-item a:hover {
   padding-bottom: .5em;
   color: var(--accent-react-blue-color)
-  /* border-bottom: 3px solid var(--accent-react-blue-color); */
 }
 
 * .quotation {
@@ -221,7 +211,7 @@ img {
   width: 80px;
   height: 1px;
   margin: 0 auto;
-  background-color: var(--accent-cream-color);
+  background-color: var(--accent-react-blue-color);
 }
 
 /* ---------- Global Media Queries ---------- */

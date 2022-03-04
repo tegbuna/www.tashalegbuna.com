@@ -40,7 +40,9 @@
     height: 100%;
     max-width: 100%;
     margin: auto;
+    padding-bottom: 2rem;
 }
+
 
 .tasha-logo{
     display: flex;
@@ -78,7 +80,7 @@
 
 }
 
-.hero .content .mobile-fs, hero .content span .mobile-se {
+.hero .content .mobile-fs, .hero .content span .mobile-se {
     display: none;
 }
 
@@ -86,7 +88,7 @@
     text-align: center;
     letter-spacing: .4em;
     font-family: Raleway;
-    font-size: clamp(1.5rem, 0.72rem + 1.64vw, 2.5rem);
+    font-size: 1rem;
     padding: 0 18vw;
 }
 
@@ -102,7 +104,7 @@
         align-self: center;
         height: auto;
         max-width: 50vw;
-        margin-top: -5em;
+        margin-top: -3em;
     }
 
     .tasha-logo{
