@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Raleway:ital,wght@0,100;0,300;1,100&family=Merriweather+Sans:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,900;1,400;1,800&family=Grey+Qo&family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Grey+Qo&family=Merriweather+Sans:wght@300;400;600;800&family=Raleway:wght@100;400;500;600;700;800&display=swap');
 
 :root {
 
@@ -31,13 +31,13 @@
  
   /* ----- Main Fonts - Global ----- */
 
-  --Heading-font-family:'Merriweather Sans', serif;
-  /* ----Weights: 300, 400, 600, 800 & Italics: 100 */
-
+  --Heading-font-family:'Cairo', sans-serif;
+  /* ----Weights: 400, 500, 600, 900 & Italics: 400, 800*/
+  
   --Main-font-family:'raleway', sans-serif;
-  /* ----Weights: 100, 300*/
+  /* ----Weights: 100 , 400, 500, 600, 700, 800  */
 
-  --Quote-font-family: 'Playfair Display', serif;
+  --Quote-font-family: 'Cairo', sans-serif;
   /* ----Weights: 400, 500, 600, 900 & Italics: 400, 800*/
 
  
@@ -130,6 +130,8 @@ h2 {
 
 p {
   color: white;
+  font-size: 1rem;
+  font-family: var(--Main-font-family);
 }
 
 * .container {
@@ -156,9 +158,9 @@ p {
 }
 
 * .quotation {
-  font-family: var(--Quote-font-family);
-  font-style: italic;
-  font-size: var(--fs-500);
+  font-family: var(--Heading-font-family);
+  /* font-style: italic; */
+  font-size: var(--fs-400);
 }
 
 

@@ -9,20 +9,20 @@ const Resume = ({title}) => {
               <div className="card">
                 <div className="card-title"><h4>Skills</h4></div>
                 {/* <img src="/" alt="Skills" /> */}
-                <p className="skills">JavaScript (ES6) -|-  HTML5 -|- CSS -|- Flex Box -|-   MongoDB -|- Mongoose-|- Express -|- React JS-|- Node JS  -|- Github </p>
+                <p className="skills"><span className="">JavaScript (ES6) - HTML5 - CSS - Flex Box -   MongoDB - Mongoose -  Express - React JS -  Node JS  - Github </span></p>
                 <p><span className="line"></span></p>
-                <p className="skills">Remote WFH/ Remote Team Collaboration & Pair Programming -|-  Networking & Relationship Management -|- Version Control -|- Command Line </p>
+                <p className="skills">Invision - Trello - Version Control - CL - Discord/ Slack/ Zoom (Remote Work) -  Pair Programming -  Networking & Relationship Management </p>
               </div>
 
             
               <div className="card">
                 <div className="card-title"><h4>Experience</h4></div>
                 {/* <img src="/" alt="Experience" /> */}
-                <p className="exp"> Mobile First (Freelance) Web Development & Graphic Design | Fierce Generation, LLC 2021</p>
+                <p className="exp"><span className=""> Mobile First Front-End Development & Graphic Design </span>(Freelance) | Fierce Generation, LLC 2021</p>
                 <div><span className="line"></span></div>
-                <p className="exp">  SEI - Fellowship | General Assemply 2021</p>
+                <p className="exp"> <span className=""> SEI - Fellowship</span> | General Assemply 2021</p>
                 <p><span className="line"></span></p>
-                <p className="edu">Freelance Tutoring - Python December 2019</p>
+                <p className="exp"><span className=""> Tutoring</span> - Python |  (Freelance) 2019</p>
               </div>
 
             

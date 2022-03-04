@@ -20,7 +20,7 @@
     background-position: top center;
     background-repeat: no-repeat;
     height: 100vh;
-    width: auto;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -88,8 +88,8 @@
     text-align: center;
     letter-spacing: .4em;
     font-family: Raleway;
-    font-size: 1rem;
-    padding: 0 18vw;
+    font-size: 1.5rem;
+    padding: 1rem 5vw 2rem 5vw;
 }
 
 .bolden {

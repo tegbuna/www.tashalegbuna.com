@@ -18,7 +18,7 @@ const Works = ({title}) => {
                             <div className="card-content">
                                 <h3 className="card-title">Done!</h3>
                                 <div className="card-body">
-                                    <p >Login  using Firebase authentication and perform CRUD operations.</p> 
+                                    <p >Login, Firebase authentication, CRUD operations.</p> 
                                     <br />
                                     <p >ReactJS  -  MongoDB  -  Firebase </p>
                                 </div>
@@ -71,7 +71,7 @@ const Works = ({title}) => {
                             <div className="card-content">
                                 <h3 className="card-title">Read It</h3>
                                 <div className="card-body">
-                                    <p >Search for books and perform  CRUD operations in two seperate lists .</p> 
+                                    <p >Search library & perform CRUD in two seperate lists .</p> 
                                     <br />
                                     <p >MongoDB - Express - Node - Google Books API</p>
                                 </div>
