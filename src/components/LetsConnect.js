@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser';
 
 
 
+
 const LetsConnect = () => {
 const form = useRef();
 
@@ -14,9 +15,9 @@ const form = useRef();
 
     emailjs.sendForm("service_sy92yi6", "template_ov9t8k4", form.current, "glIDBU5mWXKVbZskw")
       .then((result) => {
-          console.log(result.text);
+        alert("Your message has been sent.  Thanks for connecting.");
       }, (error) => {
-          console.log(error.text);
+        alert("Looks like something went wrong.  Please try again.");
       });
       e.target.reset()
   };
@@ -44,7 +45,6 @@ const form = useRef();
                  {/* <a className="github" href="/" rel="noreferrer" target="_blank"><SiGmail/></a> */}
               </div>
           </div>
-
         </form>
         </div>
       </div>

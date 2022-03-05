@@ -61,7 +61,6 @@
     border-radius: 14px;
     padding: 40px;
     line-height: 3.5rem;
-    /* background: rgba(255, 255, 255, 0.034); */
     box-shadow: 2px 1px 5px var(--accent-color-2);
     flex-wrap: wrap;
 
@@ -91,6 +90,5 @@
         top: 0;
         left: 0;
     }
-
     
 }

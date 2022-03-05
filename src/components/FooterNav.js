@@ -5,7 +5,7 @@ import "./CSS/FooterNav.css";
 const FooterNav = () => {
 
   return (
-  <div className="footer-nav" id="contact">
+  <div className="footer-nav" id="copyright">
       <nav className="navbar">
         <div className="nav-menu">
           <div className="copyright">

@@ -77,7 +77,6 @@
     font-weight: lighter;
     text-transform: capitalize;
     color: var(--accent-react-blue-color);
-
 }
 
 .hero .content .mobile-fs, .hero .content span .mobile-se {
@@ -121,8 +120,5 @@
     .title-row .se {
         font-size: clamp(2.5rem, 0.72rem + 1.64vw, 3.5rem);;
     }
-
-
-
 
 }

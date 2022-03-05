@@ -135,7 +135,6 @@
     justify-items: space-around;
     justify-content: space-between;
     align-items: center;
-    /* animation*/
     transition: transform 500ms ease;
 }
 /* my-card animation */

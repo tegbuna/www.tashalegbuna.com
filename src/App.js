@@ -4,7 +4,6 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Works from "./components/Works";
 import Footer from "./components/Footer";
-import FooterNav from "./components/FooterNav";
 
 const App = () => {
   return <div>
@@ -14,7 +13,6 @@ const App = () => {
 <Resume title="Resume"/>
 <Works title="Works"/>
 <Footer />
-{/* <FooterNav /> */}
 
   </div>;
 };

@@ -1,4 +1,5 @@
 import "./CSS/Footer.css";
+import FooterNav from "./FooterNav";
 import LetsConnect from "./LetsConnect";
 // import {SiLinkedin, SiGithub, SiGmail} from "react-icons/si";
 
@@ -14,7 +15,9 @@ const Footer = () => {
                    </h1>
                    <LetsConnect/>
                 </div>
+                <br />
               </div>
+              <FooterNav />
           </div>
     </div>
   )

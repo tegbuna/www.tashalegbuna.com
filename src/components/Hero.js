@@ -20,7 +20,6 @@ const hero = () => {
             <p className='fs'>Full Stack |</p>
             <p className='se'> Software Engineer</p> 
           </div>
-
           <div className="quotation">
               <p>I design and develop experiences that make people's lives <span className='bolden'>simple.</span></p> 
           </div>
