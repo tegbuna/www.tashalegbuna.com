@@ -1,5 +1,6 @@
 import "./CSS/Footer.css";
-import {SiLinkedin, SiGithub, SiGmail} from "react-icons/si";
+import LetsConnect from "./LetsConnect";
+// import {SiLinkedin, SiGithub, SiGmail} from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -7,18 +8,11 @@ const Footer = () => {
           <div className="container">
               <div className="content">
                 <div className="connect-container">
+
                    <h1 className="connect">
                       Let's connect!
                    </h1>
-                   <div className="social">
-                        <div className="social-list">
-                          <a className="linkedin" href="https://www.linkedin.com/in/tasha-l-egbuna/" rel="noreferrer" target="_blank"><SiLinkedin/></a>
-                          <a className="github" href="https://www.github.com/tegbuna" rel="noreferrer" target="_blank"><SiGithub/></a>
-                          {/* <a className="github" href="/" rel="noreferrer" target="_blank"><SiGmail/></a> */}
-                        </div>
-                      </div>
-                      
-                      {/* <p className="email">tasha@tashalegbuna.com</p> */}
+                   <LetsConnect/>
                 </div>
               </div>
           </div>

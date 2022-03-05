@@ -1,13 +1,19 @@
 .works {
-    background: rgba(55, 55, 55, 0);
+    background: rgba(50, 50, 50, 0.397);
     width: 100%;
     height: 100%;
     padding: 0 12rem;
+    padding-bottom: 2em;
 }
 .works .container {
     max-width: 100%;
     height: 100%;
     flex-wrap: wrap;
+}
+
+.works .title {
+    padding-top:2em;
+    margin-bottom: 2em;
 }
 
 

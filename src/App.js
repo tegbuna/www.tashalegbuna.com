@@ -14,7 +14,7 @@ const App = () => {
 <Resume title="Resume"/>
 <Works title="Works"/>
 <Footer />
-<FooterNav />
+{/* <FooterNav /> */}
 
   </div>;
 };

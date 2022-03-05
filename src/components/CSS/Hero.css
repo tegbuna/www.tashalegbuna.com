@@ -9,7 +9,7 @@
 .main-hero {
     display: block;
     content: '';
-    background-color: rgb(15,16,14);
+    background: rgba(50, 50, 50, 0.397);
     background-attachment: fixed;
     background: linear-gradient(
         hsl(0 0% 0% / 1),

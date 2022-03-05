@@ -1,5 +1,5 @@
 .resume {
-    background: rgba(55, 55, 55, 0);
+    background: rgba(50, 50, 50, 0.397);
     height: 100%;
     width: 100%;
     padding: 0 12rem;
@@ -12,7 +12,8 @@
 }
 
 .resume .title {
-    padding-top: 1em;
+    padding-top:2em;
+    margin-bottom: 2em;
 }
 
 .resume .content {
@@ -26,6 +27,7 @@
 }
 
 .resume .card-title {
+    font-family: var(--Main-font-family);
     font-size: 1.25rem;
 }
 
