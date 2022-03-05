@@ -1,5 +1,5 @@
 import "./CSS/LetsConnect.css";
-import {SiLinkedin, SiGithub, SiGmail} from "react-icons/si";
+import {SiLinkedin, SiGithub, SiFacebook} from "react-icons/si";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -42,6 +42,7 @@ const form = useRef();
               <div className="social-list">
                  <a className="linkedin" href="https://www.linkedin.com/in/tasha-l-egbuna/" rel="noreferrer" target="_blank"><SiLinkedin/></a>
                  <a className="github" href="https://www.github.com/tegbuna" rel="noreferrer" target="_blank"><SiGithub/></a>
+                 <a className="linkedin" href="https://www.facebook.com/tasha.egbuna" rel="noreferrer" target="_blank"><SiFacebook/></a>
                  {/* <a className="github" href="/" rel="noreferrer" target="_blank"><SiGmail/></a> */}
               </div>
           </div>

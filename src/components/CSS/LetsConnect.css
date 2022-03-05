@@ -73,6 +73,7 @@
 .social {
   display: flex;
   justify-content: center;
+
 }
 
 .social .social-list {
@@ -86,11 +87,13 @@
   display: flex;
   flex-direction: column;
   font-family: var(--Header-font-family);
-  padding-left: 1em;
+  margin: 0 .5em;
   padding-top: 1rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: white;
+  
+
 }
 
 .social a:hover {
