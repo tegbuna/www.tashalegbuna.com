@@ -72,7 +72,7 @@
 }
 
 .title-row .se {
-    font-family: 'Grey Qo', cursive;
+    font-family: 'Grey Qo';
     font-size: clamp(4.5rem, 3.72rem + 3.96vw, 5.5rem);;
     font-weight: lighter;
     text-transform: capitalize;

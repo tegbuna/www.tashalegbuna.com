@@ -14,7 +14,8 @@
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "http://tashalegbuna.com"
   },
   "scripts": {
     "start": "react-scripts start",
