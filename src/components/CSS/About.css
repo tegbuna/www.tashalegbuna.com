@@ -54,7 +54,7 @@ line-height: 2.75rem;
 }
 
 .two-columns .quotation{
-    background: rgba(255, 255, 255, 0.034);
+    /* background: rgba(255, 255, 255, 0.034); */
     grid-column: 2/-1;
     line-height: 2rem;
     margin: 0 0 1rem 1rem;
