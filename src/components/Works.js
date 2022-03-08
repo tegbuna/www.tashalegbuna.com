@@ -18,7 +18,7 @@ const Works = ({title}) => {
                             <div className="card-content">
                                 <h3 className="card-title">Done!</h3>
                                 <div className="card-body">
-                                    <p >Login, Firebase authentication, CRUD operations.</p> 
+                                    <p >Full Stack - Firebase authentication, CRUD operations.</p> 
                                     <br />
                                     <p >ReactJS  -  MongoDB  -  Firebase </p>
                                 </div>
@@ -36,7 +36,7 @@ const Works = ({title}) => {
                             <div className="card-content">
                                 <h3 className="card-title">Gifs|4|Today</h3>
                                 <div className="card-body">
-                                    <p >Full Stack -  utilize Giphy API to  search  GIFs, view list of top 25 trending and view top 10 in real-time.</p> 
+                                    <p >Full Stack -  Utilize Giphy API to  search  GIFs, view list of top 25 trending and view top 10 in real-time.</p> 
                                     <br />
                                     <p >MongoDB  -  Express  -  Node  -  Giphy API</p>
                                 </div>
@@ -71,9 +71,9 @@ const Works = ({title}) => {
                             <div className="card-content">
                                 <h3 className="card-title">Read It</h3>
                                 <div className="card-body">
-                                    <p >Search library & perform CRUD in two seperate lists .</p> 
+                                    <p >Full Stack - Search library & perform CRUD on two  lists .</p> 
                                     <br />
-                                    <p >MongoDB - Express - Node - Google Books API</p>
+                                    <p >MongoDB - Exp - Node - Google  API</p>
                                 </div>
                                 <div className="button-div">
                                     <a href="https://we-read-it.herokuapp.com/" rel="noreferrer" target="_blank"className="card-button">Visit</a>

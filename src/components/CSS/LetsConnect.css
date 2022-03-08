@@ -5,10 +5,12 @@
     width: 100%;
   }
   
-  .contact-form .container{
+  .form-container{  
     display: flex;
     height: 100%;
-    weight: 100%;
+    width: 100%;
+    border-radius: 14px;
+    border: 2px solid var(--accent-react-blue-color);
     }
   
     Form {
@@ -28,7 +30,7 @@
 
   
     button  {
-        align-self: center;
+      align-self: center;
     width: 150px;
     font-size: 1rem;
     font-family: var(--Heading-font-family);
@@ -39,6 +41,7 @@
     border: 2px solid var(--accent-react-blue-color);
     cursor: pointer;
     margin-top: 1rem;
+
     }
 
     input, textarea {

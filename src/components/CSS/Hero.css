@@ -98,6 +98,10 @@
 
 @media screen and (max-width: 940px) {
 
+    .main-hero {
+        padding-top: 1.5em;
+    }
+
     .tasha-mobile-logo{
         display: flex;
         align-self: center;

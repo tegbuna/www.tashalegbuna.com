@@ -39,9 +39,9 @@
         , url("../images/Portfolio/done.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 14px;
     width: 300px;
     height: 400px;
-    padding: rem 0 0;
     max-width: 40ch;
     box-shadow: 2px 1px 5px var(--primary-color);
     border-radius: 8px;
@@ -58,9 +58,9 @@
         , url("../images/Portfolio/gifsfortoday.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 14px;
     width: 300px;
     height: 400px;
-    padding: rem 0 0;
     max-width: 40ch;
     box-shadow: 2px 1px 5px var(--primary-color);
     border-radius: 8px;
@@ -75,10 +75,10 @@
         , url("../images/Portfolio/tcd.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 14px;
     background-position: left;
     width: 300px;
     height: 400px;
-    padding: rem 0 0;
     max-width: 40ch;
     box-shadow: 2px 1px 5px var(--primary-color);
     border-radius: 8px;
@@ -89,12 +89,11 @@
     background: url("../images/Portfolio/readit.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 14px;
     width: 300px;
     height: 400px;
-    padding: rem 0 0;
     max-width: 40ch;
     box-shadow: 2px 1px 5px var(--primary-color);
-    border-radius: 8px;
     overflow: hidden;
     margin: 20px;
 }
@@ -102,14 +101,12 @@
     background: url("../images/Portfolio/sanna.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 14px;
     background-position: center;
     width: 300px;
     height: 400px;
-    padding: rem 0 0;
     max-width: 40ch;
     box-shadow: 2px 1px 5px var(--primary-color);
-
-    border-radius: 8px;
     overflow: hidden;
     margin: 20px;
 }
@@ -117,10 +114,10 @@
     background: url("../images/Portfolio/fgpartial.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 14px;
     background-position: left;
     width: 300px;
     height: 400px;
-    padding: rem 0 0;
     max-width: 40ch;
     box-shadow: 2px 1px 5px var(--primary-color);
     border-radius: 8px;
@@ -135,6 +132,8 @@
     justify-items: space-around;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    border-radius: 14px;
     transition: transform 500ms ease;
 }
 /* my-card animation */
@@ -150,7 +149,7 @@
     width: 100%;
     font-size: .5rem;
     font-weight: bold;
-    --padding: 1.5rem;
+    --padding: 2rem 1.5rem 2.25rem 1.5rem;
     padding: var(--padding);
     background: linear-gradient(
         rgba(0, 0, 0, 1),
@@ -175,7 +174,6 @@
     text-transform: uppercase;
     text-decoration: solid;
     text-decoration-color: var(--accent-react-blue-color);
-
 }
 .card-title::after {
     content: "";
@@ -194,15 +192,21 @@
     transform: scaleX(1);
 }
 
-.card-body {
+.my-card .card-body {
     color: rgb(255, 255, 255, .8);
     font-size: .5rem;
     justify-self:flex-end;
     text-align: left;
     margin-top: 2.5em;
     padding-right: 2.5rem;
+    /* padding-top: 2em; */
     width: 300px;
     height: 400px;
+    border-radius: 14px;
+}
+
+.my-card .card-body::after {
+    position: absolute;
 }
 
 .button-div {
@@ -252,6 +256,11 @@ i {
         text-align: center;
     }
     
+    .my-card, .card-content {
+        border-radius: 0;
+    }
+
+    
 }
 
 @media (hover) {
@@ -261,6 +270,7 @@ i {
     }
 
     .card-content{
+        margin-top: 1em;
     transform: translateY(65%);
     transition: transform 500ms ease;
     }
@@ -275,7 +285,7 @@ i {
     }
 
     .card-content > *:not(.card-title) {
-    opacity:0;
+    opacity:1;
     transition: opacity 500ms linear;
     }
 

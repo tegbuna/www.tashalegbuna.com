@@ -57,11 +57,11 @@
 .connect-container {
     min-height: 90vh;
     min-width: 35vw;
-    border: 2px solid var(--accent-color-2);
-    border-radius: 14px;
+    /* border: 2px solid var(--accent-color-2);
+    border-radius: 14px; */
     padding: 40px;
     line-height: 3.5rem;
-    box-shadow: 2px 1px 5px var(--accent-color-2);
+    /* box-shadow: 2px 1px 5px var(--accent-color-2); */
     flex-wrap: wrap;
 
 

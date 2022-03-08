@@ -5,7 +5,7 @@ display: none;
 .header {
     background-color: rgba(0, 0, 0, 0.623);
     position: fixed;
-    height: 3rem;
+    height:60px;
     width: 100%;
     top:0;
     left:0;
@@ -23,7 +23,7 @@ display: none;
 .react-text {
     color: var(--accent-react-blue-color);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1rem;
+    font-size: .3em;
 }
 
 .header .navbar {
@@ -32,8 +32,8 @@ display: none;
     align-items: center;
     max-width: 100%;
     margin: auto;
-    height:100%; /*must give height or flex won't display properly*/
-    padding: 0 1em;
+    height:85%; /*must give height or flex won't display properly*/
+    padding: 0 .5em;
 }
 
 .header .nav-menu a {
@@ -47,9 +47,7 @@ display: none;
 }
 
 .header .nav-item {
-    padding: 0 1rem .5em 1rem;
-
-
+    padding: 0 1rem;
 }
 
 .header .logo {
@@ -74,13 +72,16 @@ display: none;
         display: flex;
         justify-content: space-between;
         align-content: center;
+        align-items: center;
         max-width: 100%;
-        height: 50px;
+        height: 70px;
+        font-size: .4em;
+        background-color: black;
     }
 
     .hamburger {
         display: block;
-        padding-top: .5em;
+        padding-bottom: .5em;
     }
 
     ul {
@@ -98,15 +99,15 @@ display: none;
     .nav-menu {
         position: fixed;
         right: -100%;
-        top: 70px;
+        top:60px;
         flex-direction: column;
-        background-color: var(--primary-dark
-        );
+        background-color: var(--primary-dark);
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         z-index:999;
         text-align: center;
         transition: .5s;
+
     }
     /* this is how menu toggles */
     .nav-menu.active {
