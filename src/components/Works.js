@@ -18,7 +18,7 @@ const Works = ({title}) => {
                             <div className="card-content">
                                 <h3 className="card-title">Done!</h3>
                                 <div className="card-body">
-                                    <p >Full Stack - Firebase authentication, CRUD operations.</p> 
+                                    <p >Full Stack - Firebase, CRUD operations.</p> 
                                     <br />
                                     <p >ReactJS  -  MongoDB  -  Firebase </p>
                                 </div>
@@ -36,9 +36,9 @@ const Works = ({title}) => {
                             <div className="card-content">
                                 <h3 className="card-title">Gifs|4|Today</h3>
                                 <div className="card-body">
-                                    <p >Full Stack -  Utilize Giphy API to  search  GIFs, view list of top 25 trending and view top 10 in real-time.</p> 
+                                    <p >Full Stack -  Utilizes Giphy API to  search  GIFs, view list of top 25 trending and view top 10 in real-time.</p> 
                                     <br />
-                                    <p >MongoDB  -  Express  -  Node  -  Giphy API</p>
+                                    <p > HTML5 - JQuery  -  Bootstrap  -  Giphy API</p>
                                 </div>
                                 <div className="button-div">
                                     <a href="https://gifs4today.vercel.app/" rel="noreferrer" target="_blank" className="card-button">Visit</a>
@@ -54,7 +54,7 @@ const Works = ({title}) => {
                             <div className="card-content">
                                 <h3 className="card-title" id="tech-career">TCD</h3>
                                 <div className="card-body">
-                                    <p > Full Stack - learn about tech career paths (MongoDB database).</p> 
+                                    <p > Full Stack - Lists tech careers and their roadmaps.</p> 
                                     <br />
                                     <p >MongoDB  -  Express  -  Node </p>
                                 </div>
@@ -71,14 +71,31 @@ const Works = ({title}) => {
                             <div className="card-content">
                                 <h3 className="card-title">Read It</h3>
                                 <div className="card-body">
-                                    <p >Full Stack - Search library & perform CRUD on two  lists .</p> 
+                                    <p >Full Stack - Searches library API & performs CRUD on two lists .</p> 
                                     <br />
-                                    <p >MongoDB - Exp - Node - Google  API</p>
+                                    <p >ReactJS - RoR - Google  API</p>
                                 </div>
                                 <div className="button-div">
                                     <a href="https://we-read-it.herokuapp.com/" rel="noreferrer" target="_blank"className="card-button">Visit</a>
                                     <a href="https://github.com/tegbuna/read-it-front-end" rel="noreferrer" target="_blank" className="card-button"><SiGithub/> Front</a>
                                     <a href="https://github.com/tegbuna/read-it-back-end" rel="noreferrer" target="_blank" className="card-button"><SiGithub/> Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="tle">
+                        <div className="my-card">
+                            <div className="card-content">
+                                <h3 className="card-title" id="tle">Portfolio</h3>
+                                <div className="card-body">
+                                    <p > This portfolio website.  See the code.</p> 
+                                    <br />
+                                    <p >ReactJS</p>
+                                </div>
+                                <div className="button-div">
+                                    <a href="https://www.tashalegbuna.com" target="_blank" className="card-button">Visit</a>
+                                    <a href="https://github.com/tegbuna/www.tashalegbuna.com" rel="noreferrer" target="_blank" className="card-button"><SiGithub/> Code</a>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +108,7 @@ const Works = ({title}) => {
                                 <div className="card-body">
                                     <p >(COMING SOON...) Front-end UI portal for San Antonio Nigerian Nurses Association.</p> 
                                     <br />
-                                    <p >ReactJS  -  Firebase Authentication</p>
+                                    <p >ReactJS  -  Firebase - MongoDB</p>
                                 </div>
                                 <div className="button-div">
                                     <a href="/" rel="noreferrer" target="_blank" className="card-button">Visit</a>
@@ -109,7 +126,7 @@ const Works = ({title}) => {
                                 <div className="card-body">
                                     <p >(COMING SOON...) www.fierce-generation.com.  This is my freelancing website.</p> 
                                     <br />
-                                    <p >ReactJS</p>
+                                    <p >ReactJS - MongoDB</p>
                                 </div>
                                 <div className="button-div">
                                     <a href="https://www.fierce-generation.com" target="_blank" className="card-button">Visit</a>

@@ -9,9 +9,9 @@ const Resume = ({title}) => {
               <div className="card">
                 <div className="card-title"><h4>Skills</h4></div>
                 {/* <img src="/" alt="Skills" /> */}
-                <p className="skills"><span className="">JavaScript (ES6) - HTML5 - CSS - Flex Box -   MongoDB - Mongoose -  Express - React JS -  Node JS  - Github </span></p>
+                <p className="skills"><span className="">JavaScript (ES6) - HTML5 - CSS - Flex Box -  MongoDB -  Express - React JS -  Node JS  -  Ruby on Rails - Postgres </span></p>
                 <p><span className="line"></span></p>
-                <p className="skills">Invision - Trello - Version Control - CL - Discord/ Slack/ Zoom (Remote Work) -  Pair Programming -  Networking & Relationship Management </p>
+                <p className="skills">Github - Invision - Trello - Version Control - CL - Discord/ Slack/ Zoom (Remote Work) -  Pair Programming -  Networking & Relationship Management </p>
               </div>
 
             

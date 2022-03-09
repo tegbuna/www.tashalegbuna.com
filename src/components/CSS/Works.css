@@ -97,6 +97,21 @@
     overflow: hidden;
     margin: 20px;
 }
+
+.tle{
+    background: url("../images/Portfolio/tle-live.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    background-position: center;
+    width: 300px;
+    height: 400px;
+    max-width: 40ch;
+    box-shadow: 2px 1px 5px var(--primary-color);
+    overflow: hidden;
+    margin: 20px;
+}
+
 .sanna {
     background: url("../images/Portfolio/sanna.png");
     background-repeat: no-repeat;
