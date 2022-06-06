@@ -52,7 +52,7 @@ const Works = ({title}) => {
                     <div className="tech-app">
                         <div className="my-card">
                             <div className="card-content">
-                                <h3 className="card-title" id="tech-career">TCD</h3>
+                                <h3 className="card-title">TCD</h3>
                                 <div className="card-body">
                                     <p > Full Stack - Lists tech careers and their roadmaps.</p> 
                                     <br />

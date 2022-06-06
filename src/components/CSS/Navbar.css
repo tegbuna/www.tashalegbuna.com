@@ -22,7 +22,7 @@ display: none;
 
 .react-text {
     color: var(--accent-react-blue-color);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', sans-serif;
     font-size: .3em;
 }
 

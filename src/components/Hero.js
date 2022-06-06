@@ -17,11 +17,11 @@ const hero = () => {
             <img src={tashalogo} alt="logo" />
           </div> 
           <div className="title-row">
-            <p className='fs'>Full Stack |</p>
-            <p className='se'> Software Engineer</p> 
+            <p className='fs'>ux/ui designer  | </p>
+            <p className='se'> | software engineer</p> 
           </div>
           <div className="quotation">
-              <p>I design and develop experiences that make people's lives <span className='bolden'>simple.</span></p> 
+              {/* <p>I design and develop experiences that make people's lives <span className='bolden'>simple.</span></p>  */}
           </div>
         </div>
       </div>

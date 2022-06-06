@@ -162,7 +162,6 @@
     justify-content: space-evenly;
     height: 100%;
     width: 100%;
-    font-size: .5rem;
     font-weight: bold;
     --padding: 2rem 1.5rem 2.25rem 1.5rem;
     padding: var(--padding);
@@ -209,7 +208,7 @@
 
 .my-card .card-body {
     color: rgb(255, 255, 255, .8);
-    font-size: .5rem;
+    font-size: .75rem;
     justify-self:flex-end;
     text-align: left;
     margin-top: 2.5em;
