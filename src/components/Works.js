@@ -1,5 +1,7 @@
 import "./CSS/Works.css";
+import {SiFigma} from "react-icons/si";
 import {SiGithub} from "react-icons/si";
+import bellissima from "../components/images/Portfolio/bellissima.png";
 import done from "../components/images/Portfolio/done.png";
 import gifs from "../components/images/Portfolio/gifsfortoday.png";
 import read from "../components/images/Portfolio/readit.png";
@@ -13,6 +15,52 @@ const Works = ({title}) => {
         <div className="container">
             <h2 className="title" >{title}</h2>
            <div className="card-page-body">
+                <div>
+                            <h3 className="ux-title">Case Studies</h3>
+                            <p>Coming soon...</p>
+                </div>
+                <div className="bellissima-app">
+                                <div className="my-card">
+                                    <div className="card-content">
+                                        <h3 className="card-title">Bellissima</h3>
+                                        <div className="card-body">
+                                            <p >UX Mobile App Design / Frontend Development</p> 
+                                            <br />
+                                            <p >Figma, ReactJS </p>
+                                        </div>
+                                        <div className="button-div">
+                                            <a href="https://www.figma.com/proto/zNE31iOxDrLC2IZKiVTfWg/Bellissima-Restaurant-App?node-id=2%3A9&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1616" rel="noreferrer" target="_blank" className="card-button"><SiFigma/>  Low-Fidelity Prototype</a>
+                                            <a href="/" rel="noreferrer" target="_blank" className="card-button"> Case Study</a>
+                                            <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiGithub/> Front</a>
+                                        </div>
+                                    </div>
+                                </div>
+                 </div>
+                 <div className="sanna">
+                        <div className="my-card">
+                            <div className="card-content" id="sanna">
+                                <h3 className="card-title">SANNA</h3>
+                                <div className="card-body">
+                                    <p >UX Casestudy & Frontend UI portal for SA Nigerian Nurses Association.</p> 
+                                    <br />
+                                    <p >Figma  -  React JS - Firebase</p>
+                                </div>
+                                <div className="button-div">
+                                <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiFigma/>  Low-Fidelity Prototype</a>
+                                            <a href="/" rel="noreferrer" target="_blank" className="card-button"> Case Study</a>
+                                            <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiGithub/> Front</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div className="card-page-body">
+
+                <div>
+                            <h3 className="se-title">Web Applications</h3>
+                </div>
+                     
                 <div className="done-app">
                         <div className="my-card">
                             <div className="card-content">
@@ -101,24 +149,6 @@ const Works = ({title}) => {
                         </div>
                     </div>
 
-                    <div className="sanna">
-                        <div className="my-card">
-                            <div className="card-content" id="sanna">
-                                <h3 className="card-title">SANNA</h3>
-                                <div className="card-body">
-                                    <p >(COMING SOON...) Front-end UI portal for San Antonio Nigerian Nurses Association.</p> 
-                                    <br />
-                                    <p >ReactJS  -  Firebase - MongoDB</p>
-                                </div>
-                                <div className="button-div">
-                                    <a href="/" rel="noreferrer" target="_blank" className="card-button">Visit</a>
-                                    <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiGithub/> Code</a>
-                                    {/* <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiGithub/> Back</a> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <div className="fgllc">
                         <div className="my-card">
                             <div className="card-content">
@@ -137,8 +167,7 @@ const Works = ({title}) => {
                         </div>
                     </div>
            </div>
-        
-
+           
         </div>
 
     </div>
