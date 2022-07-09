@@ -1,8 +1,9 @@
 .about {
-    background: rgba(50, 50, 50, 0.397);
+    /* background: rgba(50, 50, 50, 0.397); */
+    background: rgb (196, 194, 194);
     width: 100%;
     height: 100%;
-    padding: 0 12rem;
+    padding: 0 12rem 12rem 12rem;
 }
 
 .about .title {
@@ -11,18 +12,20 @@
 }
 
 .about .container {
-    height: 100%;
+    height: 80%;
     max-width: 100%;
     padding: 0 1.5em;
     display: flex;
     flex-direction: column;
     border-left: 1px solid  rgba(255, 255, 255, 0.774);
+    border-right: 1px solid  rgba(255, 255, 255, 0.774);
+
 }
 
 
 .about p {
-font-size: 1.25rem;
-line-height: 1.75rem;
+font-size: 1 rem;
+/* line-height: 1.75rem; */
 text-align: justify;
 }
 
@@ -31,13 +34,13 @@ text-align: justify;
     text-align: left;
 }
 
-.pink {
+/* .pink {
     color: hotpink;
-}
+} */
 
-.blue {
+/* .blue {
     color: var(--accent-react-blue-color);
-}
+} */
 
 /* .green {
     color: rgb(49, 242, 94);

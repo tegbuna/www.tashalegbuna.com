@@ -39,58 +39,61 @@
     flex-direction: column;
     height: 100%;
     max-width: 100%;
-    margin: auto;
-    padding-bottom: 2rem;
+    /* margin: -5rem; */
+    /* padding-bottom: 2rem; */
 }
 
 
-.tasha-logo{
+/* .tasha-logo{
     display: flex;
     align-self: center;
     height: auto;
-}
+    
+} */
 
 .tasha-mobile-logo{
     display: none;
 }
 
-.content .title-row {
+/* .content .title-row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 2rem;
-}
+} */
 
-.title-row .fs {
+.label {
     font-family: 'Grey Qo';
-    font-size: clamp(5.5rem, 4.72rem + 4.96vw, 6.5rem);;
+    font-size: clamp(7.5rem,5.96rem + 5.96vw, 7.5rem);
     text-align: center;
-    color: hotpink;
+    /* color: rgb(117, 116, 112); */
+    /* color: rgb(189, 183, 180); */
+    color: black;
 }
 
-.title-row .se {
-    font-family: 'Grey Qo';
-    font-size: clamp(5.5rem, 3.72rem + 3.96vw, 5.5rem);;
+.uxd {
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(3.5rem, 3.5rem + .05vw, 2.5rem);
     font-weight: lighter;
-    color: var(--accent-react-blue-color);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    /* padding-top: -.5rem; */
 }
 
-.hero .content .mobile-fs, .hero .content span .mobile-se {
-    display: none;
-}
 
-.hero .quotation {
+/* .hero .quotation {
     text-align: center;
     letter-spacing: .4em;
     font-family: Raleway;
     font-size: 1.5rem;
     padding: 1rem 5vw 2rem 5vw;
-}
+} */
 
-.bolden {
+/* .bolden {
     font-style: normal;
     color: var(--accent-react-blue-color);
-}
+} */
 
 @media screen and (max-width: 940px) {
 
@@ -102,22 +105,51 @@
         display: flex;
         align-self: center;
         height: auto;
-        max-width: 50vw;
-        margin-top: 1em;
+        max-width: 90vw;
+        /* margin-top: 1em; */
     }
 
     .tasha-logo{
         display: none;
     }
 
+    .uxd {
+        padding-bottom: 5rem;
+    }
+}
 
-    .title-row .fs {
-        font-size: clamp(3rem, 1.5rem + 1.64vw, 2.5rem);;
-        padding-top: .5em;
+@media screen and (max-width: 532px){
+    .label {
+        font-family: 'Grey Qo';
+        font-size: 5rem;
+        text-align: center;
+        /* color: rgb(117, 116, 112); */
     }
     
-    .title-row .se {
-        font-size: clamp(3rem, 0.72rem + 1.64vw, 3.5rem);;
+    .uxd {
+        font-family: 'Raleway', sans-serif;
+        font-size: 5rem;
+        font-weight: lighter;
+        color: white;
+        text-align: center;
+        /* padding-top: -.5rem; */
     }
+}
 
+@media screen and (max-width: 468px){
+    .label {
+        font-family: 'Grey Qo';
+        font-size: 5rem;
+        text-align: center;
+        /* color: rgb(117, 116, 112); */
+    }
+    
+    .uxd {
+        font-family: 'Raleway', sans-serif;
+        font-size: 2rem;
+        font-weight: lighter;
+        color: white;
+        text-align: center;
+        /* padding-top: -.5rem; */
+    }
 }

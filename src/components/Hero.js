@@ -10,15 +10,17 @@ const hero = () => {
     <div className='hero' id='home'>
       <div className="main-hero">
         <div className="content">
+        <div className="title-row">
+            <p className='label'> ux | designer </p>
           <div className="tasha-logo">
-            <img src={tashalogo} alt="logo" />
+          <p className="uxd">Tasha L. Egbuna</p>
+            {/* <img src={tashalogo} alt="logo" /> */}
           </div>  
           <div className="tasha-mobile-logo">
-            <img src={tashalogo} alt="logo" />
+          <p className="uxd">Tasha L. Egbuna</p>
+            {/* <img src={tashalogo} alt="logo" /> */}
           </div> 
-          <div className="title-row">
-            <p className='fs'>ux/ui designer  | </p>
-            <p className='se'> | software engineer</p> 
+            {/* <p className='se'> | software engineer</p>  */}
           </div>
           <div className="quotation">
               {/* <p>I design and develop experiences that make people's lives <span className='bolden'>simple.</span></p>  */}

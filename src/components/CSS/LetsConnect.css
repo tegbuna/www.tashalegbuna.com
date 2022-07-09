@@ -10,7 +10,7 @@
     height: 100%;
     width: 100%;
     border-radius: 14px;
-    border: 2px solid var(--accent-react-blue-color);
+    border: 2px solid  rgb(125, 124, 125);;
     }
   
     Form {
@@ -22,7 +22,7 @@
     line-height: 1.75em;
     min-width: 30vw;
     min-height: 65vh;
-    color: var(--accent-react-blue-color);
+    color: white;
     border-radius: 14px;
     background: rgba(255, 255, 255, 0.034);
     padding: 20px;
@@ -38,7 +38,7 @@
     background-color: var(--primary-color);
     padding: 0.5em 1.25em;
     border-radius: 14px;
-    border: 2px solid var(--accent-react-blue-color);
+    border: 2px solid  rgb(125, 124, 125);;
     cursor: pointer;
     margin-top: 1rem;
 
@@ -89,7 +89,7 @@
 .social a {
   display: flex;
   flex-direction: column;
-  font-family: var(--Header-font-family);
+  font-family: 'var(--Header-font-family)';
   margin: 0 .5em;
   padding-top: 1rem;
   list-style: none;
@@ -100,7 +100,7 @@
 }
 
 .social a:hover {
-  color: var(--accent-react-blue-color)
+  color:  rgb(125, 124, 125);
 } 
 
 

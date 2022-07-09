@@ -20,10 +20,11 @@ display: none;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
-.react-text {
-    color: var(--accent-react-blue-color);
-    font-family:'Segoe UI', sans-serif;
+.myname {
+    color: rgb(189, 183, 180);
+    font-family: 'Raleway', sans-serif;
     font-size: .3em;
+    text-transform: uppercase;
 }
 
 .header .navbar {

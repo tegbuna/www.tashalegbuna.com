@@ -9,9 +9,9 @@ const App = () => {
   return <div>
 <Navbar />
 <Hero />
+<Works title="Works"/>
 <About title="About"/>
 <Resume title="Resume"/>
-<Works title="Works"/>
 <Footer />
 
   </div>;

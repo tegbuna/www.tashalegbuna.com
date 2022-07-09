@@ -9,24 +9,25 @@ import tech from "../components/images/Portfolio/tcd.png";
 import fierce from "../components/images/Portfolio/fgllc.png";
 import sanna from "../components/images/Portfolio/sanna.png"
 
-const Works = ({title}) => {
+const Works = () => {
   return (
     <div className="works">
         <div className="container">
-            <h2 className="title" >{title}</h2>
-           <div className="card-page-body">
-                <div>
-                            <h3 className="ux-title">Case Studies</h3>
-                            <p>Coming soon...</p>
-                </div>
+            {/* <h2 className="title" >{title}</h2> */}
+                 <div>
+                        <h3 className="ux-title">UX Case Studies</h3>
+                        <h5>Coming soon...</h5>
+                </div> 
+                <div className="card-page-body">
+
                 <div className="bellissima-app">
                                 <div className="my-card">
                                     <div className="card-content">
                                         <h3 className="card-title">Bellissima</h3>
+                                <p>Coming soon...</p>
+
                                         <div className="card-body">
                                             <p >UX Mobile App Design / Frontend Development</p> 
-                                            <br />
-                                            <p >Figma, ReactJS </p>
                                         </div>
                                         <div className="button-div">
                                             <a href="https://www.figma.com/proto/zNE31iOxDrLC2IZKiVTfWg/Bellissima-Restaurant-App?node-id=2%3A9&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1616" rel="noreferrer" target="_blank" className="card-button"><SiFigma/>  Low-Fidelity Prototype</a>
@@ -40,10 +41,10 @@ const Works = ({title}) => {
                         <div className="my-card">
                             <div className="card-content" id="sanna">
                                 <h3 className="card-title">SANNA</h3>
+                                <p>Coming soon...</p>
                                 <div className="card-body">
                                     <p >UX Casestudy & Frontend UI portal for SA Nigerian Nurses Association.</p> 
-                                    <br />
-                                    <p >Figma  -  React JS - Firebase</p>
+
                                 </div>
                                 <div className="button-div">
                                 <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiFigma/>  Low-Fidelity Prototype</a>
@@ -52,13 +53,12 @@ const Works = ({title}) => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-            </div>
-
-            <div className="card-page-body">
+             </div>
 
                 <div>
-                            <h3 className="se-title">Web Applications</h3>
+                <h3 className="ux-title">Engineering Projects</h3>
+                 <h5>Software Development Apps</h5>
+
                 </div>
                      
                 <div className="done-app">
@@ -97,7 +97,7 @@ const Works = ({title}) => {
                     
                     </div>
 
-                    <div className="tech-app">
+                    {/* <div className="tech-app">
                         <div className="my-card">
                             <div className="card-content">
                                 <h3 className="card-title">TCD</h3>
@@ -112,7 +112,7 @@ const Works = ({title}) => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="read-it">
                         <div className="my-card">
@@ -132,7 +132,7 @@ const Works = ({title}) => {
                         </div>
                     </div>
 
-                    <div className="tle">
+                    {/* <div className="tle">
                         <div className="my-card">
                             <div className="card-content">
                                 <h3 className="card-title" id="tle">Portfolio</h3>
@@ -147,14 +147,14 @@ const Works = ({title}) => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="fgllc">
                         <div className="my-card">
                             <div className="card-content">
                                 <h3 className="card-title" id="fgllc">F-G, LLC</h3>
                                 <div className="card-body">
-                                    <p >(COMING SOON...) www.fierce-generation.com.  This is my freelancing website.</p> 
+                                    <p >Coming soon... www.fierce-generation.com.  This is my freelancing website.</p> 
                                     <br />
                                     <p >ReactJS - MongoDB</p>
                                 </div>
