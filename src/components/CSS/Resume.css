@@ -1,6 +1,7 @@
 .resume {
     /* background: rgba(50, 50, 50, 0.397); */
-    background-color: rgb(197, 194, 195);
+    background: rgb (34, 34, 34);
+    /* background-color: rgb(197, 194, 195); */
     height: 100%;
     width: 100%;
     padding: 0 12rem;
@@ -28,19 +29,6 @@
     flex-wrap: wrap;
 }
 
-.resume .card-title {
-    font-family:'Grey Qo', cursive;
-    text-transform: lowercase;
-    font-size: 6rem;
-    font-weight: 100;
-    font-family: 'Grey Qo', cursive;
-    /* color: rgb(117, 116, 112); */
-    color: black;
-    margin-top: -5rem;
-     margin-bottom: -5rem;
-}
-
-
 .resume .card {   
     display: flex;
     flex-direction: column;
@@ -51,12 +39,9 @@
     justify-content: space-around;
     margin: 20px;
     border-radius: 14px;
-    /* background: rgba(255, 255, 255, 0.034); */
-    background-color: rgba(215, 214, 212, 0.568);
+    background: rgba(50, 50, 50, 0.397);
     flex: 1  1 500px;
-    /* padding: .75em; */
     font-size: 1rem;
-    /* line-height: 1.5rem;   */
     overflow: auto;
     padding: 2.5rem;
 }
@@ -68,7 +53,9 @@
 }
 
 .exp, .edu, .skills, .bold {
-    color: black;
+    color: rgb(189, 183, 180);
+    font-size: 1rem;
+
 }
 
 /* .resume .line {

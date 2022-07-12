@@ -7,7 +7,7 @@ const Resume = ({title}) => {
        <div className="container">
           <div className="content">
               <div className="card">
-                <div className="card-title">Skills</div>
+                <div className="t4s">Skills</div>
                 {/* <img src="/" alt="Skills" /> */}
                 <p className="skills"><span id="skillz"> Adobe XD . Figma . Research . Design Thinking . Relationship Management.  Project Management . Networking . React JS . HTML5 . CSS - Flex Box '&' Grid . Remote Work . Pair Programming  </span></p>
                 <p><span className="line"></span></p>
@@ -16,7 +16,7 @@ const Resume = ({title}) => {
 
             
               <div className="card">
-                <div className="card-title">Experience</div>
+                <div className="t4s">Experience</div>
                 {/* <img src="/" alt="Experience" /> */}
                 <p className="exp"><span id="skillz">Freelance UX Design & Responsive Software Development </span> | Fierce Generation, LLC 2021</p>
                 {/* <div><span className="line"></span></div> */}
@@ -27,7 +27,7 @@ const Resume = ({title}) => {
 
             
               <div className="card">
-                <div className="card-title">Education</div>
+                <div className="t4s">Education</div>
                 {/* <img src="/" alt="Education" /> */}
                 <p className="edu"> Google UX Design Certification | Coursera - Google </p>
                 <p className="edu"> MongoDB Database Certification | MongoDB University </p>

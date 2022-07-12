@@ -1,8 +1,10 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Works from "./components/Works";
+import Engineering from "./components/Engineering";
 import About from "./components/About";
 import Resume from "./components/Resume";
-import Works from "./components/Works";
+import Connect from "./components/Connect"
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -10,8 +12,10 @@ const App = () => {
 <Navbar />
 <Hero />
 <Works title="Works"/>
-<About title="About"/>
+<Engineering />
+<About title="Hello"/>
 <Resume title="Resume"/>
+<Connect title="Let's Connect" />
 <Footer />
 
   </div>;

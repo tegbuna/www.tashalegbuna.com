@@ -1,4 +1,4 @@
-.works {
+.engineering {
     /* background: rgba(50, 50, 50, 0.397); */
    /* background-color: black; */
     background: rgb (34, 34, 34);
@@ -7,7 +7,7 @@
     padding: 0 12rem;
     padding-bottom: 2em;
 }
-.works .container {
+.engineering .container {
     max-width: 100%;
     height: 100%;
     flex-wrap: wrap;
@@ -15,13 +15,12 @@
     text-align: center;
 }
 
-.works p {
+.engineering p {
 font-size: .25 rem;
 color: white;
 }
 
-
-.works .card-page-body, .works .card-page-body2 {
+.engineering .card-page-body, .engineering .card-page-body2 {
     display: flex;
     max-width: 100%;
     height: 100%;
@@ -35,12 +34,31 @@ color: white;
     /* line-height: 1.6; */
 }
 
-.bellissima-app {
+.done-app {
     background: linear-gradient(
         rgba(0, 0, 0, .3),
         rgba(0, 0, 0, .3),
         rgba(0, 0, 0,  0.3))
-        , url("../images/Portfolio/bellissima.png");
+        , url("../images/Portfolio/done.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    width: 300px;
+    height: 400px;
+    max-width: 40ch;
+    box-shadow: 2px 1px 5px var(--primary-color);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+.gifs-app {
+    background: linear-gradient(
+        rgba(0, 0, 0, .3),
+        rgba(0, 0, 0, .3),
+        rgba(0, 0, 0,  0.3))
+        , url("../images/Portfolio/gifsfortoday.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 14px;
@@ -53,8 +71,39 @@ color: white;
     margin: 20px;
 }
 
-.sanna {
-    background: url("../images/Portfolio/sanna.png");
+.tech-app {
+    background: linear-gradient(
+        rgba(0, 0, 0, .3),
+        rgba(0, 0, 0, .3),
+        rgba(0, 0, 0,  0.3))
+        , url("../images/Portfolio/tcd.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    background-position: left;
+    width: 300px;
+    height: 400px;
+    max-width: 40ch;
+    box-shadow: 2px 1px 5px var(--primary-color);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+}
+.read-it {
+    background: url("../images/Portfolio/readit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    width: 300px;
+    height: 400px;
+    max-width: 40ch;
+    box-shadow: 2px 1px 5px var(--primary-color);
+    overflow: hidden;
+    margin: 20px;
+}
+
+.tle{
+    background: url("../images/Portfolio/tle-live.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 14px;
@@ -66,6 +115,7 @@ color: white;
     overflow: hidden;
     margin: 20px;
 }
+
 .fgllc {
     background: url("../images/Portfolio/fgpartial.png");
     background-repeat: no-repeat;

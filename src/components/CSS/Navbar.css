@@ -23,7 +23,8 @@ display: none;
 .myname {
     color: rgb(189, 183, 180);
     font-family: 'Raleway', sans-serif;
-    font-size: .3em;
+    font-size: .6rem;
+
     text-transform: uppercase;
 }
 
@@ -38,9 +39,9 @@ display: none;
 }
 
 .header .nav-menu a {
-    font-family: var(--Main-font-family);
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    font-size: .75rem;
+    font-size: .6rem;
 }
 
 .header .nav-menu {

@@ -120,6 +120,41 @@ body:before {
   padding-bottom: 2rem;
 }
 
+.section-label {
+  padding: 5rem;
+}
+
+.t4s {
+  font-family: 'Grey Qo', cursive;
+  font-size: 4.3rem;
+  font-weight: bold;
+  line-height: calc(17vh/1.618);
+  /* color: black; */
+  color: rgb(189, 183, 180);
+  
+}
+
+.t3s {
+  color: rgb(189, 183, 180);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 2.6rem;
+  line-height: calc(11vh/1.618);
+  text-transform: uppercase;
+}
+
+.t2s {
+  color: rgb(189, 183, 180);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  /* font-weight: bold; */
+  font-size: 1rem;
+  line-height: calc(11vh/1.618);
+  text-transform: uppercase;
+}
+
+
 h2 {
     color: white;
     font-family: var(--Main-font-family);

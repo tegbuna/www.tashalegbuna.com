@@ -9,15 +9,9 @@ const Footer = () => {
           <div className="container">
               <div className="content">
                 <div className="connect-container">
-
-                   <h1 className="connect">
-                      Let's connect!
-                   </h1>
-                   <LetsConnect/>
-                </div>
-                <br />
               </div>
               <FooterNav />
+              </div>
           </div>
     </div>
   )

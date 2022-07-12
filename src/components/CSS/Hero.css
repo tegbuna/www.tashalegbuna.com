@@ -38,118 +38,27 @@
     align-content: center;
     flex-direction: column;
     height: 100%;
-    max-width: 100%;
-    /* margin: -5rem; */
-    /* padding-bottom: 2rem; */
+    line-height:calc(18vh/1.618);
 }
-
-
-/* .tasha-logo{
-    display: flex;
-    align-self: center;
-    height: auto;
-    
-} */
 
 .tasha-mobile-logo{
     display: none;
 }
 
-/* .content .title-row {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 2rem;
-} */
 
-.label {
+.uxds {
     font-family: 'Grey Qo';
-    font-size: clamp(7.5rem,5.96rem + 5.96vw, 7.5rem);
+    font-weight: bold;
+    font-size: clamp(2.6rem,1.618*100vh, 10rem);
     text-align: center;
-    /* color: rgb(117, 116, 112); */
-    /* color: rgb(189, 183, 180); */
     color: black;
 }
 
 .uxd {
     font-family: 'Raleway', sans-serif;
-    font-size: clamp(3.5rem, 3.5rem + .05vw, 2.5rem);
+    font-size: clamp(1.6rem, 1.618*100vw, 1.6rem);
     font-weight: lighter;
     color: white;
     text-align: center;
     text-transform: uppercase;
-    /* padding-top: -.5rem; */
-}
-
-
-/* .hero .quotation {
-    text-align: center;
-    letter-spacing: .4em;
-    font-family: Raleway;
-    font-size: 1.5rem;
-    padding: 1rem 5vw 2rem 5vw;
-} */
-
-/* .bolden {
-    font-style: normal;
-    color: var(--accent-react-blue-color);
-} */
-
-@media screen and (max-width: 940px) {
-
-    .main-hero {
-        padding-top: 1.5em;
-    }
-
-    .tasha-mobile-logo{
-        display: flex;
-        align-self: center;
-        height: auto;
-        max-width: 90vw;
-        /* margin-top: 1em; */
-    }
-
-    .tasha-logo{
-        display: none;
-    }
-
-    .uxd {
-        padding-bottom: 5rem;
-    }
-}
-
-@media screen and (max-width: 532px){
-    .label {
-        font-family: 'Grey Qo';
-        font-size: 5rem;
-        text-align: center;
-        /* color: rgb(117, 116, 112); */
-    }
-    
-    .uxd {
-        font-family: 'Raleway', sans-serif;
-        font-size: 5rem;
-        font-weight: lighter;
-        color: white;
-        text-align: center;
-        /* padding-top: -.5rem; */
-    }
-}
-
-@media screen and (max-width: 468px){
-    .label {
-        font-family: 'Grey Qo';
-        font-size: 5rem;
-        text-align: center;
-        /* color: rgb(117, 116, 112); */
-    }
-    
-    .uxd {
-        font-family: 'Raleway', sans-serif;
-        font-size: 2rem;
-        font-weight: lighter;
-        color: white;
-        text-align: center;
-        /* padding-top: -.5rem; */
-    }
 }

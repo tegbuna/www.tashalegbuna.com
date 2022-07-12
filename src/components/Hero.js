@@ -11,7 +11,7 @@ const hero = () => {
       <div className="main-hero">
         <div className="content">
         <div className="title-row">
-            <p className='label'> ux | designer </p>
+            <p className='uxds'> ux | designer </p>
           <div className="tasha-logo">
           <p className="uxd">Tasha L. Egbuna</p>
             {/* <img src={tashalogo} alt="logo" /> */}
