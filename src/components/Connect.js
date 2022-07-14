@@ -1,13 +1,15 @@
 import './CSS/Connect.css'
 import LetsConnect from './LetsConnect'
 
-const Connect = ({title}) => {
+const Connect = () => {
   return (
     <div className='connect'>
         <div className="container">
-        <h2 className="title" >{title}</h2>
+        {/* <h2 className="title" >{title}</h2> */}
             <div className="content">
-        <LetsConnect/>
+              <div className="connect-containter">
+                <LetsConnect title="Let's Connect"/>
+              </div>
             </div>
         </div>
     </div>

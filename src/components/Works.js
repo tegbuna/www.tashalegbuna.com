@@ -17,13 +17,13 @@ const Works = ({title}) => {
                             <div className="my-card">
                                 <div className="card-content">
                                     <h3 className="card-title">Bellissima</h3>
-                                    <p>Coming soon...</p>
+                                    <p className="sub-title">Coming soon...</p>
 
                                     <div className="card-body">
-                                        <p >UX Mobile App Design / Frontend Development</p> 
+                                        <p >Mobile App Design | Web App</p> 
                                     </div>
                                     <div className="button-div">
-                                        <a href="https://www.figma.com/proto/zNE31iOxDrLC2IZKiVTfWg/Bellissima-Restaurant-App?node-id=2%3A9&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1616" rel="noreferrer" target="_blank" className="card-button"><SiFigma/>  Low-Fidelity Prototype</a>
+                                        <a href="https://www.figma.com/proto/zNE31iOxDrLC2IZKiVTfWg/Bellissima-Restaurant-App?node-id=2%3A9&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1616" rel="noreferrer" target="_blank" className="card-button"><SiFigma/> Low-Fi </a>
                                         <a href="/" rel="noreferrer" target="_blank" className="card-button"> Case Study</a>
                                         <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiGithub/> Front</a>
                                     </div>
@@ -35,13 +35,13 @@ const Works = ({title}) => {
                             <div className="my-card">
                                 <div className="card-content" id="sanna">
                                     <h3 className="card-title">SANNA</h3>
-                                    <p>Coming soon...</p>
+                                    <p className="sub-title">Coming soon...</p>
                                     <div className="card-body">
-                                        <p >UX Casestudy & Frontend UI portal for SA Nigerian Nurses Association.</p> 
+                                    <p className="details">Desktop | Mobile Design | Web App</p> 
 
                                     </div>
                                     <div className="button-div">
-                                    <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiFigma/>  Low-Fidelity Prototype</a>
+                                    <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiFigma/>Low-Fi</a>
                                     <a href="/" rel="noreferrer" target="_blank" className="card-button"> Case Study</a>
                                     <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiGithub/> Front</a>
                                 </div>
@@ -66,9 +66,9 @@ const Works = ({title}) => {
                         <div className="card-content">
                             <h3 className="card-title">Done!</h3>
                             <div className="card-body">
-                                <p >Full Stack - Firebase, CRUD operations.</p> 
+                            <p className="sub-title">Full Stack  App</p> 
                                 <br />
-                                <p >ReactJS  -  MongoDB  -  Firebase </p>
+                                <p className="details">React | MongoDB | Firebase </p>
                             </div>
                             <div className="button-div">
                                 <a href="https://the-done-app.netlify.app" rel="noreferrer" target="_blank" className="card-button">Visit</a>
@@ -84,9 +84,9 @@ const Works = ({title}) => {
                         <div className="card-content">
                             <h3 className="card-title">Gifs|4|Today</h3>
                             <div className="card-body">
-                                <p >Full Stack -  Utilizes Giphy API to  search  GIFs, view list of top 25 trending and view top 10 in real-time.</p> 
+                            <p className="sub-title">Full Stack  App</p>
                                 <br />
-                                <p > HTML5 - JQuery  -  Bootstrap  -  Giphy API</p>
+                                <p > HTML5 | JQuery | Bootstrap| Giphy API</p>
                             </div>
                             <div className="button-div">
                                 <a href="https://gifs4today.vercel.app/" rel="noreferrer" target="_blank" className="card-button">Visit</a>
@@ -119,9 +119,9 @@ const Works = ({title}) => {
                         <div className="card-content">
                             <h3 className="card-title">Read It</h3>
                             <div className="card-body">
-                                <p >Full Stack - Searches library API & performs CRUD on two lists .</p> 
+                            <p className="sub-title">Full Stack  App</p>
                                 <br />
-                                <p >ReactJS - RoR - Google  API</p>
+                                <p >React | RoR | Google API</p>
                             </div>
                             <div className="button-div">
                                 <a href="https://we-read-it.herokuapp.com/" rel="noreferrer" target="_blank"className="card-button">Visit</a>
@@ -154,12 +154,12 @@ const Works = ({title}) => {
                         <div className="card-content">
                             <h3 className="card-title" id="fgllc">F-G, LLC</h3>
                             <div className="card-body">
-                                <p >Coming soon... www.fierce-generation.com.  This is my freelancing website.</p> 
+                            <p className="sub-title">Front End Web</p>
                                 <br />
-                                <p >ReactJS - MongoDB</p>
+                                <p >React | MongoDB | Firebase | e-Commerce</p>
                             </div>
                             <div className="button-div">
-                                <a href="https://www.fierce-generation.com" target="_blank" className="card-button">Visit</a>
+                                <a href="https://www.fierce-generation.com" rel="noreferrer" target="_blank" className="card-button">Visit</a>
                                 <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiGithub/> Code</a>
                                 {/* <a href="/" rel="noreferrer" target="_blank" className="card-button"><SiGithub/> Back</a> */}
                             </div>

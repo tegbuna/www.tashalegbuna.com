@@ -15,7 +15,7 @@ const App = () => {
 {/* <Engineering /> */}
 <About title="hello!"/>
 <Resume title="Resume"/>
-<Connect title="Let's Connect" />
+<Connect />
 <Footer />
 
   </div>;

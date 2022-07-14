@@ -1,12 +1,11 @@
 .about {
     background-color: rgb(15,16,14);
-    padding: 6rem 12rem 12rem 12rem;
+    padding: 6rem 12rem;
     width: 100%;
     height: 100%;
 }
 
 .about .title {
-    /* color: rgb(255, 255, 255, .8); */
     color: white;
     text-align: center;
     font-family: 'Grey Qo', cursive;
@@ -15,26 +14,22 @@
 }
 
 .about .container {
-    height: 80%;
+    height: 100%;
     max-width: 100%;
     padding: 0 1.5em;
+    margin: 6rem -12rem 12rem 0rem;
     display: flex;
     flex-direction: column;
-    border-left: 1px solid rgb(255, 255, 255, .8);
-    ;
-    ;
-    border-right: 1px solid  rgb(255, 255, 255, .8);
-    ;
-    ;
-
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 
 
 .about-me {
-font-size: 1 rem;
 line-height: 1.75rem;
 text-align: justify;
-color: rgb(189, 183, 180);
+/* color: rgb(189, 183, 180); */
+color: white;
 font-size: 1rem;
 }
 
@@ -44,27 +39,18 @@ font-size: 1rem;
 @media screen and (max-width: 940px) {
    .about {
     height: auto;
-    width: 100vw;
+    width: 100;
     padding: 0;
    }
 
 
    .about p {
     font-size: 1 rem;
-    /* line-height: 1.75rem; */
     text-align: center;
-    color: rgb(189, 183, 180);
+    color: white;
     }
 
-
-
-    .two-columns {
-        display: flex;
-        margin: 0 auto;
-        justify-content: center;
-        align-content: center;
-        flex-direction: column;
-    }
+ */
 
     .two-columns > * {
         display: flex;
@@ -77,11 +63,8 @@ font-size: 1rem;
         line-height: 3rem;
     }
 
-    .two-columns .quotation {
-        display: none;
-    }
-
     .about .container {
         border: none;
+        padding-bottom: 1em;
     }
 }

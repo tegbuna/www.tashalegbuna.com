@@ -7,7 +7,7 @@ import emailjs from '@emailjs/browser';
 
 
 
-const LetsConnect = () => {
+const LetsConnect = ({title}) => {
 const form = useRef();
 
   const sendEmail = (e) => {
@@ -24,9 +24,10 @@ const form = useRef();
 
   return (
     <div className="connect-form">
+      <div className="connect-container">
       <div className="form-container">
         <form ref={form} onSubmit={sendEmail}>
-
+          <h2 className="form-title">{title}</h2>
           <label>Name</label>
           <input type="text" name="name" />
 
@@ -49,6 +50,7 @@ const form = useRef();
         </form>
         </div>
       </div>
+    </div>
   );
 };
 

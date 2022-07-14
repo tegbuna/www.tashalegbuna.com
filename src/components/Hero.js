@@ -1,5 +1,4 @@
 import './CSS/Hero.css';
-import tashalogo from "./images/tashalogo.png";
 
 
 

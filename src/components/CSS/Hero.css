@@ -38,7 +38,7 @@
     align-content: center;
     flex-direction: column;
     height: 100%;
-    line-height:calc(18vh/1.618);
+    line-height:calc(21vh/1.618);
 }
 
 .tasha-mobile-logo{
