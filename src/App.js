@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Works from "./components/Works";
-import Engineering from "./components/Engineering";
+// import Engineering from "./components/Engineering";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Connect from "./components/Connect"
@@ -12,8 +12,8 @@ const App = () => {
 <Navbar />
 <Hero />
 <Works title="Works"/>
-<Engineering />
-<About title="Hello"/>
+{/* <Engineering /> */}
+<About title="hello!"/>
 <Resume title="Resume"/>
 <Connect title="Let's Connect" />
 <Footer />

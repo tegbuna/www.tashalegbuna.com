@@ -1,9 +1,26 @@
 
 .connect {
-    height: 100vh;
+    /* height: 100vh;
     width: 100%;
     position: relative;
-    display: flex;
+    display: flex; */
+    padding: 0 12rem;
+    padding-bottom: 2em;
+    display: block;
+    content: '';
+    background: rgb(217, 217, 217);
+    background-attachment: fixed;
+    background: url("../images/dakscreen.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
 }
 
 .connect .container {

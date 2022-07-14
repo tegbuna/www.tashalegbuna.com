@@ -5,35 +5,51 @@ const Resume = ({title}) => {
     <div className="resume" id='resume'>
        {/* <h2 className="title">Resume</h2>  */}
        <div className="container">
-          <div className="content">
+
+          <div className="boxes">
+
               <div className="card">
-                <div className="t4s">Skills</div>
-                {/* <img src="/" alt="Skills" /> */}
-                <p className="skills"><span id="skillz"> Adobe XD . Figma . Research . Design Thinking . Relationship Management.  Project Management . Networking . React JS . HTML5 . CSS - Flex Box '&' Grid . Remote Work . Pair Programming  </span></p>
-                <p><span className="line"></span></p>
-                <p className="skills">  Javascript (ES6) . MongoDB . Express . Node . Github . Command Line Interface (CLI) </p>
+
+                <div className="heading">
+                 <div className="t4s">Skills</div> 
+                </div>
+                
+                <div className="cardText"> 
+                  <p className="skills"> Adobe XD <br />   Figma <br />  Research <br />   Design Thinking <br />  Relationship Management <br />  Project Management <br />  Networking <br />  Remote Work <br />  Pair Programming <br /> React JS <br />  HTML5 <br />  CSS - Flexbox & Grid <br />  Javascript <br />  MongoDB <br />  Express <br />  Node <br />  Github <br />  Command Line  (CLI) </p>
+                </div>
+
               </div>
 
             
               <div className="card">
-                <div className="t4s">Experience</div>
-                {/* <img src="/" alt="Experience" /> */}
-                <p className="exp"><span id="skillz">Freelance UX Design & Responsive Software Development </span> | Fierce Generation, LLC 2021</p>
-                {/* <div><span className="line"></span></div> */}
-                {/* <p className="exp"> <span className=".bold"> SEI - Fellowship</span> | General Assemply 2021</p>
-                <p><span className="line"></span></p> */}
-                <p className="exp"><span className=".bold">Freelance Tutoring</span> - Python | 2019</p>
+
+                <div className="heading">
+                  <div className="t4s">Experience</div>                  
+                </div>
+
+                <div className="cardText">
+                  <p className="exp">2021 |<span className="bold"> Freelance UX Design & Responsive Software Development </span>  Fierce Generation, LLC</p>
+                  <br />
+                  <p className="exp">2019 |<span className="bold"> Freelance Tutoring  (Python)</span> </p>
+               </div>
+
               </div>
 
             
               <div className="card">
-                <div className="t4s">Education</div>
-                {/* <img src="/" alt="Education" /> */}
-                <p className="edu"> Google UX Design Certification | Coursera - Google </p>
-                <p className="edu"> MongoDB Database Certification | MongoDB University </p>
-                <p className="edu"> Software Engineering Immersive Certification | General Assembly </p>
-                <p className="edu">2022 Scholarship Recipient | The Mom Project</p>
-                <p><span className="line"></span></p>
+
+                <div className="heading">
+                  <div className="t4s">Education</div>                  
+                </div>
+
+                 <div className="cardText">
+                  <p className="edu"><span className="bold"> Google UX Design Certification</span> | Coursera - Google </p><br />
+                  <p className="edu"><span className="bold"> MongoDB Database Certification</span> | MongoDB University </p><br />
+                  <p className="edu"><span className="bold"> Software Engineering Immersive Certification</span> | General Assembly </p><br />
+                  <p className="edu"><span className="bold">2022 Scholarship Recipient</span> | The Mom Project</p>
+                  <p><span className="line"></span></p>
+
+                </div>
               </div>
           </div>
         </div>

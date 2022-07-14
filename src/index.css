@@ -128,7 +128,7 @@ body:before {
   font-family: 'Grey Qo', cursive;
   font-size: 4.3rem;
   font-weight: bold;
-  line-height: calc(17vh/1.618);
+  line-height: calc(16vh/1.618);
   /* color: black; */
   color: rgb(189, 183, 180);
   
@@ -149,8 +149,8 @@ body:before {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   /* font-weight: bold; */
-  font-size: 1rem;
-  line-height: calc(11vh/1.618);
+  font-size: .8rem;
+  /* line-height: calc(11vh/1.618); */
   text-transform: uppercase;
 }
 
@@ -163,11 +163,6 @@ h2 {
     font-weight: 100;
 } 
 
-p {
-  color: white;
-  font-family: var(--Main-font-family);
-  font-size: 1rem;
-}
 
 * .container {
   place-items: center;

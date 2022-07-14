@@ -1,16 +1,15 @@
 .resume {
-    /* background: rgba(50, 50, 50, 0.397); */
-    background: rgb (34, 34, 34);
-    /* background-color: rgb(197, 194, 195); */
+    padding: 0 2rem;
+    padding-bottom: 2em; 
     height: 100%;
     width: 100%;
-    padding: 0 12rem;
 }
 
 .resume .container {
-    max-width: 100%;
-    height: 100%;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .resume .title {
@@ -19,43 +18,67 @@
     color: black;
 }
 
-.resume .content {
+.resume .boxes {
     display: flex;
     max-width: 100%;
     height: 100%;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content:center;
     align-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .resume .card {   
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    width: 375px;
-    height: 500px;
-    justify-content: space-around;
     margin: 20px;
-    border-radius: 14px;
-    background: rgba(50, 50, 50, 0.397);
-    flex: 1  1 500px;
-    font-size: 1rem;
+    /* border-radius: 14px; */
+    /* background: rgba(50, 50, 50, 0.397); */
+    background-color: black;
+    flex-basis: 350px;
+    font-size: .6rem;
     overflow: auto;
     padding: 2.5rem;
+    width: 33.33%;
+    margin-top: -1rem;
 }
 
-.resume .card-content {
-    display: flex;
-    height: 100%;
-    width: 100%;
+.resume .heading {
+    padding: .5rem  1rem 1rem 1rem;
+    text-align: center;
+    /* color: rgb(189, 183, 180); */
+    /* color: white; */
+    font-size: 1rem;
 }
 
-.exp, .edu, .skills, .bold {
+.resume .cardText {
+    padding: .5rem;
+    flex-grow: 1;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.skills {
+color: rgb(189, 183, 180);
+font-size: 1rem;
+line-height: 1.5rem;
+/* font-weight: bold; */
+/* text-transform: uppercase; */
+}
+
+.exp, .edu, .bold {
     color: rgb(189, 183, 180);
     font-size: 1rem;
+}
 
+.bold {
+    font-weight: bold;
 }
 
 /* .resume .line {
@@ -71,19 +94,19 @@
         height: auto;
     }
     .resume .title {
-        text-align: center;
+        text-align: justify;
     }
 
     .resume .card {   
-        width: 300px;
-        height: 500px;
+        width: 100vw;
+        display: flex;
         justify-content: space-around;
         margin: 30px;
         padding: 1em;
         /* line-height: 2em; */
     }
 
-    .resume .content {
+    .resume .boxes {
         font-size: 1rem;
         font-family: var(--Quote-font-family);
         /* line-height: 1.25rem;   */
